@@ -1,0 +1,38 @@
+// FileReverse.java
+//Illustrates file IO and tokenization of strings and prints everything reversed
+import java.io.*;
+impot java.util.Scanner;
+class FileReverse{
+	public static void main (String [] args) throws IOException{
+		Scanner in = null
+		PrintWriter out = null;
+		String line = null;
+		Strin[] token = null;
+		int i, n, lineNumber = 0;
+		if (args.length < 2){
+			System.out.println("Usage: FileCopy <input file> <output file>");
+			System.exit(1);
+		}
+		in = new Scanner(new File(args[0]));
+		out = new PrintWriter (new FileWriter(args[1]));
+		while (in.hasNextLine() ){
+			lineNumber++;
+			line = in.nextLine90.trim() + " ";
+			token = line.split("\\s+");
+			n=token.length;
+			for (i=0; i<n; i++) {
+				out.println(stringReverse(token[i], token[i].length());
+			}
+		}
+		in.close();
+		out.close();
+	}
+	
+	public static String stringReverse (String s, int n){
+		if (n==1){
+			return s;
+		}else{
+			return stringReverse(s.substring(1), n-1) + s.charAt(0);
+		}
+	}
+}

@@ -1,0 +1,49 @@
+//midterm
+//3A
+static int sumArray(int A[], int n){
+	if (n<=0){
+		return A[n-1];
+		}else{
+			return (sumArray(A, n-1) + A[(n-1)-1]);
+		}
+	}
+	
+//3B
+static int sumArray(int A[], int N){
+	if (N<=1){
+		return A[0];
+	}else{
+		return (SumArray(A, N-1) + A[N-1]);
+	}
+}
+	
+//3B
+static int sumArray(int A[], p, r){
+	if (p<r){
+		int q = (p+r)/2;
+		int a = sumArray(A, p, q);
+		int b = sumArray(A,q+1,r);
+		return a+b;
+	}else if (p==r){
+		return A[p];
+	}else{
+		return 0;
+	}
+}
+
+//4
+static int BinarySearch(int[] X, int p, int r, int target){
+	if( p<=r ){
+		int q = (p+r)/2;
+		System.out.print(X[q]+" ");
+		if( target==X[q] ){
+			return q;
+		}else if( target<X[q] ){
+			return BinarySearch(X, p, q-1, target);
+		}else{ // target>X[q]
+			return BinarySearch(X, q+1, r, target);
+		}
+	}else{
+		return -1;
+	}
+}

@@ -1,0 +1,194 @@
+//lab 5
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<assert.h>
+#include"Dictionary.h"
+
+
+// private types --------------------------------------------------------------
+
+// NodeObj
+typedef struct NodeObj{
+	char* key;
+	char* value;
+	struct NodeObj* next;
+} NodeObj;
+
+// Node
+typedef NodeObj* Node;
+
+// newNode()
+// constructor of the Node type
+Node newNode(char* k, char* v) {
+   Node N = malloc(sizeof(NodeObj));
+   assert(N!=NULL);
+   N -> key=k;
+   N -> value=v;
+   N -> next=NULL;
+   return(N);
+}
+
+// freeNode()
+// destructor for the Node type
+void freeNode(Node* pN){
+   if( pN!=NULL && *pN!=NULL ){
+      free(*pN);
+      *pN = NULL;
+   }
+}
+
+// StackObj
+typedef struct DictionaryObj{
+	Node head;
+	int numItems;
+} DictionaryObj;
+
+
+// public functions -----------------------------------------------------------
+
+// newStack()
+// constructor for the Stack type
+Dictionary newDictionary(void){
+   Dictionary d = malloc(sizeof(DictionaryObj));
+   assert(d!=NULL);
+   d->head = NULL;
+   d->numItems = 0;
+   return d;
+}
+
+// freeStack()
+// destructor for the Stack type
+void freeDictionary(Dictionary* pD){
+   if( pD!=NULL && *pD!=NULL ){
+      if( !isEmpty(*pD) ) makeEmpty(*pD);
+      free(*pD);
+      *pD = NULL;
+   }
+}
+
+Node findKey(Dictionary D, char* key){
+	if (D==NULL){
+		fprintf(stderr, "Dictionary Error: findKey() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	
+	if (D->head==NULL){
+		return NULL;
+	}
+	Node N = D->head;
+	while (N!=NULL){
+		char* getKey=N->key;
+		if(strcmp(getKey,key)==0){
+			return N;
+		}else{
+			N=N->next;
+		}
+	}
+	return NULL;
+}
+
+int isEmpty(Dictionary D){
+	if (D==NULL){
+		fprintf(stderr,"Dictionary Error: isEmpty() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	return (D->numItems==0);
+}
+
+int size(Dictionary D){
+	return (D->numItems);
+}
+
+char* lookup(Dictionary D, char* k){
+	if (D==NULL){
+		fprintf(stderr, "Dictionary Error: lookup() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	Node N=findKey(D, k);
+	if (N!=NULL){
+		return N->value;
+	}
+	return NULL;
+}
+
+void insert(Dictionary D, char* k, char* v){
+	if (D==NULL){
+		fprintf(stderr, "Dictionary Error: insert() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	if(lookup(D,k) !=NULL){
+		printf("Dictionary Error: insert() duplicate keys\n");
+	}else{
+		if (D->head == NULL){
+			Node N = newNode(k,v);
+			D->head = N;
+		}else{
+			Node N=D->head;
+			while (N!=NULL){
+				if (N->next == NULL){
+					break;
+				}
+				N=N->next;
+			}
+			N->next = newNode(k,v);
+		}
+		D->numItems++;
+	}
+}
+
+void delete(Dictionary D, char* k){
+	if (D==NULL){
+		fprintf(stderr, "Dictionary Error: delete() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	if (lookup(D, k)==NULL){
+		printf("Dictionary Error: empty list\n");
+	}else{
+		Node N = findKey(D,k);
+		if (N==D->head){
+			Node A=D->head;
+			D->head=A->next;
+			freeNode(&A);
+		}else{
+			Node P= D->head;
+			while (P!=NULL){
+				Node A = P->next;
+				char* getKey = A->key;
+				if (strcmp(getKey, k)==0){
+					break;
+				}
+				P=P->next;
+			}
+			Node A= P->next;
+			Node S= A->next;
+			if (S!=NULL){
+				P->next=S;
+				A->next=NULL;
+				freeNode(&A);
+			}else{
+				P->next=NULL;
+				freeNode(&a);
+			}
+		}
+	}
+	D->numItems--;
+}
+
+void makeEmpty(Dictionary D){
+	D->head = NULL;
+	D->numItems=0;
+}
+
+void printDictionary(FILE* out, Dictionary D){
+	Node N;
+	if(D==NULL){
+		fprintf(stderr, "Dictionary Error: printDictionary() called on NULL Dictionary Reference\n");
+		exit(EXIT_FAILURE);
+	}
+	for (N=D->head; N != NULL; N=N->next){
+		fprintf(out, "%s %s", N -> key, N->value);
+		fprintf(out, "\n");
+	}
+}

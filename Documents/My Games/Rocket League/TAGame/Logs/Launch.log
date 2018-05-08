@@ -1,0 +1,1129 @@
+Log: Log file open, 29/04/2018 19:16:30
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Warning: Warning, Unknown language extension . Defaulting to INT
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 180407.56364.190397
+Init: Compiled (32-bit): Apr  7 2018 16:07:29
+Init: Command line: 
+Init: Base directory: E:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\
+[0000.56] Init: Computer: DESKTOP-2SOA5UR
+[0000.56] Init: User: jjkin
+[0000.56] Init: CPU Page size=4096, Processors=4
+[0000.56] Init: High frequency timer resolution =2.437505 MHz
+[0000.56] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=11.5GB Virtual=4.0GB
+[0004.04] Log: Steam Client API initialized 1
+[0004.24] Log: Steam Game Server API initialized 1
+[0004.24] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0004.24] Init: Object subsystem initialized
+[0004.69] Log: Found D3D11 adapter 0: NVIDIA GeForce GTX 1050 Ti
+[0004.69] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0005.29] Log: Found D3D11 adapter 1: Intel(R) HD Graphics 630
+[0005.29] Log: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 3967MB of shared system memory
+[0005.32] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0005.32] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4029MB of shared system memory
+[0005.47] Log: Shader platform (RHI): PC-D3D-SM3
+[0009.87] Log: ProductDatabase_TA::PostLoad  0.07 sec total.
+[0009.99] Log: 103878 objects as part of root set at end of initial load.
+[0009.99] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.99] Log: Initializing Engine...
+[0009.99] Log: BuildID: -436812108 from GPsyonixBuildID
+[0010.01] SystemSettings: Loading PC Settings
+[0010.01] Log: Is physics simulation enabled: 1
+[0010.26] Log: Running hardware survey...
+[0010.26] Log: OS: Microsoft Windows 10 Home  (16299)
+[0010.26] Log: WinSAT: 5.8 [8.9 CPU, 5.8 2D, 9.9 3D, 8.9 Mem, 7.9 Disk]
+[0010.26] Log: Processor: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (Intel64 Family 6 Model 158 Stepping 9) 4 Cores, 4 Threads
+[0010.26] Log: Memory: 8.00GB
+[0010.26] Log: VideoController: NVIDIA GeForce GTX 1050 Ti (23.21.13.8871)
+[0010.26] Log: VideoController: Intel(R) HD Graphics 630 (22.20.16.4836)
+[0010.26] Log: Wwise(R) SDK Version 2016.2.3 Build 6077. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0010.50] Log: Network Adapter: Intel(R) Dual Band Wireless-AC 3165
+[0010.50] Log: Network Adapter: Realtek PCIe GBE Family Controller
+[0010.50] Log: Disk C: 35.92GB free of 223.98GB
+[0010.50] Log: Disk D: 0.07GB free of 0.10GB
+[0010.50] Log: Disk E: 90.24GB free of 218.79GB
+[0010.50] Log: Sound Device: NVIDIA High Definition Audio
+[0010.50] Log: Sound Device: Realtek Audio
+[0010.50] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0011.24] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0011.24] Log: Initializing Steamworks
+[0011.25] DevOnline: Steam ID: 76561198079539088
+[0011.25] DevOnline: Steam universe: PUBLIC
+[0011.25] DevOnline: Steam appid: 252950
+[0011.25] DevOnline: Steam IsSubscribed: 1
+[0011.25] DevOnline: Steam IsLowViolence: 0
+[0011.25] DevOnline: Steam IsCybercafe: 0
+[0011.25] DevOnline: Steam IsVACBanned: 0
+[0011.25] DevOnline: Steam IP country: US
+[0011.25] DevOnline: Steam official server time: 1525054598
+[0011.25] DevOnline: Steam Cloud quota: 99773408 / 100000000
+[0011.25] DevOnline: Steam original app owner: 76561198079539088
+[0011.25] DevOnline: Logged in as 'jjkinard'
+[0011.25] VoiceChat: The desired playback sample rate is 11000.
+[0011.25] ScriptLog: PsyNet using environment DBE_Production Prod
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 LoggedOut
+[0011.26] PsyNet: PsyNetConnection_X_0 disabled OSCS_NotConnected
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 HandleConnectionChanged
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 UpdateLoginState
+[0011.26] DevOnline: Logged in as 'jjkinard'
+[0011.26] PsyNet: PsyNetConnection_X_0 enabled
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleConnectionChanged
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 UpdateLoginState
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 RequestAuthCode
+[0011.26] DevOnline: Issuing request for encrypted app ticket
+[0011.26] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleLoginStatusChanged
+[0011.26] DevOnline: Successfully set the friend join URL: 
+[0011.26] Party: HandleLocalPlayerLoginStatusChanged PlayerName=jjkinard PlayerID=Steam|76561198079539088|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0011.26] SaveGame: Load Player.ControllerId=0 SaveFileName=..\..\TAGame\SaveData\DBE_Production\76561198079539088.save
+[0011.28] DevNet: Browse: MENU_Main_p
+[0011.29] Log: LoadMap: MENU_Main_p
+[0011.57] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0012.21] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0012.30] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.04.29-19.16.42
+[0012.30] Log: Bringing up level for play took: 0.081408
+[0012.30] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0012.30] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0013.11] DevOnline: Set rich presence to: Main Menu data: Menu
+[0013.11] ScriptLog: SetUIState StartMenu
+[0013.11] ScriptLog: Script call stack:
+[0013.11] ScriptLog: 	Function Engine.GameInfo:PostLogin
+[0013.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:GenericPlayerInitialization
+[0013.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:InitShell
+[0013.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:SetUIState
+[0013.11] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0013.11] Log: ########### Finished loading level: 1.826029 seconds
+[0013.48] Log: Flushing async loaders.
+[0013.98] Log: Flushed async loaders.
+[0013.98] Log: Initializing Engine Completed
+[0013.98] Log: >>>>>>>>>>>>>> Initial startup: 13.98s <<<<<<<<<<<<<<<
+[0014.00] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 SendLoginRequest
+[0014.00] DevOnline: Logged in as 'jjkinard'
+[0014.00] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleLoginStatusChanged
+[0014.00] DevOnline: Successfully set the friend join URL: 
+[0014.00] Party: HandleLocalPlayerLoginStatusChanged PlayerName=jjkinard PlayerID=Steam|76561198079539088|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0014.03] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_0 [Auth/AuthPlayer]
+[0014.03] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0014.03] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0014.03] SaveGame: HandleDataLoaded Result.Code=BasicLoadResult_Success
+[0014.03] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:OnLoad ((Category="TournamentSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ExhibitionMatchSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="PrivateMatchSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ServerBrowserSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProductsOfflineSave_TA",UpdateTick=4,LastSyncCompleteTime=1523518426),(Category="MusicPlayerSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="SoundSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="UISavedValues_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="MapPrefsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="RankedReconnectSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="NetworkSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ConnectionQualitySave_TA",UpdateTick=1,LastSyncCompleteTime=1523518424),(Category="TutorialSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="BlogTileCache_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProductsSave_TA",UpdateTick=3,LastSyncCompleteTime=1523518424),(Category="PlaylistSkillDataSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="MatchmakingSettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ClientXPSave_TA",UpdateTick=3,LastSyncCompleteTime=1523518426),(Category="SeasonSave_TA",LastSyncCompleteTime=1523517428),(Category="VideoSettingsSavePC_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="GameplaySettingsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProductsFavoriteSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="EulaSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="AchievementSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfileGameplaySave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="PlayerBannerSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfileStatsSave_TA",UpdateTick=3,LastSyncCompleteTime=1523518426),(Category="ProfileControlsSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfileAimAssistSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfileCameraSave_TA",UpdateTick=3,LastSyncCompleteTime=1523518426),(Category="ProfileQuickChatSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfileLoadoutSave_TA",UpdateTick=3,LastSyncCompleteTime=1523518426),(Category="ProfileGamepadSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428),(Category="ProfilePCSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428))
+[0014.03] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=10000 InputRate=60
+[0015.25] SaveData: Profile_TA_0 OnLoaded LocalID=0
+[0015.29] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0015.29] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0015.34] Log: Flushing async loaders.
+[0015.35] Log: Flushed async loaders.
+[0015.35] Warning: Warning, Failed to load 'SwfMovie GFX_StartMenu.StartMenu': Failed to find object 'SwfMovie GFX_StartMenu.StartMenu'
+[0015.55] Log: Detected new XInput controller 0
+[0015.55] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart TournamentSettingsSave_TA 1
+[0015.55] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ExhibitionMatchSettingsSave_TA 1
+[0015.55] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart PrivateMatchSettingsSave_TA 1
+[0015.55] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ServerBrowserSettingsSave_TA 1
+[0015.55] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0015.55] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_0 Response=PsyNetMessage_X_1 Latency=1.5517 
+[0015.55] DevOnline: Obtained steam user stats, user: 76561198079539088
+[0015.74] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_0->PsyNetMessage_X_1 PsyTime=1525054601 [Auth/AuthPlayer]
+[0015.74] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 LoggedIn
+[0015.74] PsyNet: Enabling PerCon
+[0016.31] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0016.31] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=True bPerConConnected=True
+[0016.31] MTX: ConditionalClaimEntitlements bClaimingEntitlements=False bEntitlementsDirty=False PsyNetConnected=True SplitscreenID=0 bMtxCodeExpired=False
+[0016.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_2 [Settings/GetStaticDataURL]
+[0016.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0016.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_3 [Players/GetPlayerTitles GenericStorage/GetPlayerGenericStorage DLC/GetDLC Tournaments/Status/GetTournamentSubscriptions Skills/GetPlayerSkill Party/GetPlayerPartyInfo]
+[0016.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0016.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_4 [SaveData/Get]
+[0016.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0016.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_5 [Products/GetPlayerProducts]
+[0016.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0016.58] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_2 Response=PsyNetMessage_X_6 Latency=0.2584 
+[0016.62] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_2->PsyNetMessage_X_6 PsyTime=1525054603 [Settings/GetStaticDataURL]
+[0016.72] Log: PsyNetStaticData could not find class 'UrlConfig_X'
+[0016.72] Log: FJsonStructReader - cannot find property BlogURL because Struct has not been set.
+[0016.83] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_3 Response=PsyNetMessage_X_7 Latency=0.4965 
+[0016.85] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_3->PsyNetMessage_X_7 PsyTime=1525054604 [Players/GetPlayerTitles GenericStorage/GetPlayerGenericStorage DLC/GetDLC Tournaments/Status/GetTournamentSubscriptions Skills/GetPlayerSkill Party/GetPlayerPartyInfo]
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum MusicPlayerSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum SoundSettingsSave_TA Checksum=-1993606980
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum UISavedValues_TA Checksum=-392128429
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum MapPrefsSave_TA Checksum=-1442357009
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum RankedReconnectSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum NetworkSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ConnectionQualitySave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum TutorialSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum BlogTileCache_TA Checksum=516076695
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProductsSave_TA Checksum=-1631223737
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum PlaylistSkillDataSave_TA Checksum=810891553
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum MatchmakingSettingsSave_TA Checksum=338143175
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ClientXPSave_TA Checksum=-2114025688
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum TournamentSettingsSave_TA Checksum=1323873334
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum SeasonSave_TA Checksum=0
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Result=(DataClass=Class'TAGame.SeasonSave_TA') Checksum Mismatch!!!
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Metadata=(Category="SeasonSave_TA",LastSyncCompleteTime=1523517428) RemoteData=None
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Local data is newer, update remote storage
+[0016.85] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart SeasonSave_TA 0
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum VideoSettingsSavePC_TA Checksum=0
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Result=(DataClass=Class'TAGame.VideoSettingsSavePC_TA') Checksum Mismatch!!!
+[0016.85] OnlinePlayerStorage: SyncComplete VideoSettingsSavePC_TA UpdateTick 1 -> 0
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Metadata=(Category="VideoSettingsSavePC_TA",UpdateTick=1,LastSyncCompleteTime=1523517428) RemoteData=None
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Local data is newer, update remote storage
+[0016.85] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart VideoSettingsSavePC_TA 0
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum GameplaySettingsSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProductsFavoriteSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ExhibitionMatchSettingsSave_TA Checksum=1323873334
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum PrivateMatchSettingsSave_TA Checksum=1323873334
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ServerBrowserSettingsSave_TA Checksum=1323873334
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProductsOfflineSave_TA Checksum=1831229565
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum EulaSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum AchievementSave_TA Checksum=1672257269
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Result=(DataClass=Class'TAGame.AchievementSave_TA',ServerTick=1,Checksum=1672257269) Checksum Mismatch!!!
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Metadata=(Category="AchievementSave_TA",UpdateTick=1,LastSyncCompleteTime=1523517428) RemoteData=None
+[0016.85] OnlinePlayerStorage: OnlineStorageSyncSuccess Local data is newer, update remote storage
+[0016.85] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart AchievementSave_TA 1
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileGameplaySave_TA Checksum=-1204891077
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum PlayerBannerSave_TA Checksum=-1265243568
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileStatsSave_TA Checksum=349783934
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileControlsSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileAimAssistSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileCameraSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileQuickChatSave_TA Checksum=1091286827
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileLoadoutSave_TA Checksum=-978763447
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfileGamepadSave_TA Checksum=-1346561181
+[0016.85] OnlinePlayerStorage: Manifest SetChecksum ProfilePCSave_TA Checksum=765248072
+[0016.92] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_4 Response=PsyNetMessage_X_8 Latency=0.5759 
+[0016.93] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_4->PsyNetMessage_X_8 PsyTime=1525054604 [SaveData/Get]
+[0017.05] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_5 Response=PsyNetMessage_X_9 Latency=0.7236 
+[0017.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_5->PsyNetMessage_X_9 PsyTime=1525054604 [Products/GetPlayerProducts]
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:AddDrop (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2826489618 PendingDrops.Length=1
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2826489618 PendingDrops.Length = 1 PendingCurrencyDrops.Length = 0
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=0 PendingDrop=2826489618
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops ItemDrop Does Not Exists2826489618
+[0017.06] ScriptLog: Script call stack:
+[0017.06] ScriptLog: 	Function TAGame.RPC_ProductsPlayerGet_TA:OnSuccess
+[0017.06] ScriptLog: 	Function ProjectX.RPC_X:OnSuccess
+[0017.06] ScriptLog: 	Function TAGame.SaveData_TA:HandleOnlineProductsReceived
+[0017.06] ScriptLog: 	Function TAGame.SaveData_TA:OnNewOnlineProduct
+[0017.06] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:HandleNewOnlineItem
+[0017.06] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:AddDrop
+[0017.06] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0017.06] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:AddDrop (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2833832762 PendingDrops.Length=2
+[0017.06] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:AddDrop (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2841215514 PendingDrops.Length=3
+[0020.93] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_10 [Products/GetContainerDropTable]
+[0020.93] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0021.14] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_10 Response=PsyNetMessage_X_11 Latency=0.2118 
+[0021.15] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_10->PsyNetMessage_X_11 PsyTime=1525054608 [Products/GetContainerDropTable]
+[0021.68] ScriptLog: SetUIState MainMenu
+[0021.68] ScriptLog: Script call stack:
+[0021.68] ScriptLog: 	Function TAGame.GFxData_StartMenu_TA:TitleScreenClicked
+[0021.68] ScriptLog: 	Function TAGame.GFxData_StartMenu_TA:ProgressToMainMenu
+[0021.68] ScriptLog: 	Function TAGame.GFxData_StartMenu_TA:OnPrimaryPlayerSet
+[0021.68] ScriptLog: 	Function TAGame.SaveGameManager_TA:NotifyWhenLoaded
+[0021.68] ScriptLog: 	Function TAGame.GFxData_StartMenu_TA:HandleSaveDataLoaded
+[0021.68] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:HandlePrimaryPlayerSet
+[0021.68] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:SetUIState
+[0021.68] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0021.68] DevOnline: Set rich presence to: Main Menu data: Menu
+[0021.68] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[0021.80] MTX: ConditionalClaimEntitlements bClaimingEntitlements=False bEntitlementsDirty=True PsyNetConnected=True SplitscreenID=0 bMtxCodeExpired=False
+[0021.80] MTX: HandleMtxCode bSuccess=True
+[0021.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_12 [Microtransaction/ClaimEntitlements]
+[0021.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0021.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_13 [Players/GetChatBanStatus]
+[0021.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_13 Message=PsyNetMessage_X_13
+[0021.85] Warning: Warning, Failed to load 'SwfMovie GFX_UnlockMenu.UnlockMenu': Failed to find object 'SwfMovie GFX_UnlockMenu.UnlockMenu'
+[0022.61] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_12 Response=PsyNetMessage_X_14 Latency=0.6081 
+[0022.61] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_12->PsyNetMessage_X_14 PsyTime=1525054609 [Microtransaction/ClaimEntitlements]
+[0022.61] MTX: HandleClaimSuccess Products=0
+[0022.61] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_13 Response=PsyNetMessage_X_15 Latency=0.7713 
+[0022.63] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_13->PsyNetMessage_X_15 PsyTime=1525054609 [Players/GetChatBanStatus]
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2826489618
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2833832762 PendingDrops.Length = 2 PendingCurrencyDrops.Length = 0
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=0 PendingDrop=2833832762
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops Online Product Exists=2833832762 ProductID=2446
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=1 PendingDrop=2841215514
+[0025.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops Online Product Exists=2841215514 ProductID=2446
+[0025.09] ScriptLog: Script call stack:
+[0025.09] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropHandled
+[0025.09] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0025.09] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0025.09] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProductsSave_TA 3
+[0026.34] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2833832762
+[0026.34] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0026.34] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2841215514 PendingDrops.Length = 1 PendingCurrencyDrops.Length = 0
+[0026.34] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=0 PendingDrop=2841215514
+[0026.34] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:DebugItemDrops Online Product Exists=2841215514 ProductID=2446
+[0026.34] ScriptLog: Script call stack:
+[0026.34] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropHandled
+[0026.34] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0026.34] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0026.92] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=2841215514
+[0026.92] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0026.92] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0026.92] ScriptLog: Script call stack:
+[0026.92] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropHandled
+[0026.92] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0026.92] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0026.93] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0026.93] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0026.93] ScriptLog: Script call stack:
+[0026.93] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropsHandled
+[0026.93] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0026.93] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0026.94] Log: FSaveDataExportTask(0) wrote 32606 bytes to memory
+[0026.94] Log: SaveGameDataAsync game thread time: 1 ms
+[0026.96] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_1.save
+[0026.96] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1031856000]
+[0030.82] Warning: Warning, Failed to load 'SwfMovie GFX_TrainingMenu.TrainingMenu': Failed to find object 'SwfMovie GFX_TrainingMenu.TrainingMenu'
+[0052.31] Log: Assigning XInput controller to 0
+[0064.33] Warning: Warning, Failed to load 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu': Failed to find object 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu'
+[0064.59] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart PrivateMatchSettingsSave_TA 1
+[0064.59] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ExhibitionMatchSettingsSave_TA 1
+[0064.59] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_16 [GameServer/GetGameServerPingList]
+[0064.59] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0064.69] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_16 Response=PsyNetMessage_X_17 Latency=0.1084 
+[0064.70] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_16->PsyNetMessage_X_17 PsyTime=1525054652 [GameServer/GetGameServerPingList]
+[0064.70] Log: Using Secure Websockets
+[0064.73] Log: Using Secure Websockets
+[0064.74] Log: Using Secure Websockets
+[0064.76] Log: Using Secure Websockets
+[0064.77] Log: Using Secure Websockets
+[0064.79] Log: Using Secure Websockets
+[0064.80] Log: Using Secure Websockets
+[0064.82] Log: Using Secure Websockets
+[0064.83] Log: Using Secure Websockets
+[0064.85] Log: Using Secure Websockets
+[0067.65] Matchmaking: All Regions Pinged: USE (0.1029), EU (0.1949), USW (0.0576), ASC (0.1954), ASM (0.2021), JPN (0.1387), ME (0.3299), OCE (0.1865), SAF (0.3913), SAM (0.2184)
+[0070.00] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_18 [Metrics/RecordMetrics]
+[0070.00] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_18
+[0070.12] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_18 Response=PsyNetMessage_X_19 Latency=0.1210 
+[0070.13] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_18->PsyNetMessage_X_19 PsyTime=1525054657 [Metrics/RecordMetrics]
+[0071.93] Online: TryToPlayOnline ControllerID=-1
+[0071.93] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0071.93] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0071.93] ScriptLog: OnlineStatusError Invite someone to your party before starting a private match.
+[0073.06] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_20 [Party/CreateParty]
+[0073.06] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_20
+[0073.18] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_20 Response=PsyNetMessage_X_21 Latency=0.1245 
+[0073.19] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_20->PsyNetMessage_X_21 PsyTime=1525054660 [Party/CreateParty]
+[0073.19] Log: Unknown error named 'UsePlatformPartySystem'
+[0073.19] Log: RPC Error: Service=Party/CreateParty, Type=UnknownError, Code=-1, Message=Unknown error 'UsePlatformPartySystem'. 
+[0073.19] Party: OnPartyCreated bWasSuccessful=False InPartyId:'Unknown-0' 
+[0073.19] DevOnline: Creating lobby of type 2 with a maximum of 8 members
+[0073.40] DevOnline: SteamLobbyCreated: Result: '1' k_EResultOK (success), LobbyId: 109775244897058089
+[0073.40] Party: OnPartyCreated bWasSuccessful=True InPartyId:'Steam-109775244897058089' 
+[0073.40] Party: ShowInviteUI
+[0073.40] DevOnline: UOnlineLobbyInterfaceSteamworks::ShowInviteUI: 109775244897058089
+[0073.40] DevOnline: SteamLobbyEnterResponse: LobbyUID: 109775244897058089, EnterResult: 1, UserPermissions: 0, bInviteOnly: 1
+[0073.40] Party: HandleJoinLobby bWasSuccessful=True LobbyUID:'Steam-109775244897058089' 
+[0073.40] DevOnline: SteamLobbyDataUpdate: LobbyUID: 109775244897058089, MemberUID: 109775244897058089, bUpdateSuccess: 1
+[0073.46] DevOnline: Steam GameOverlayActivated: 1
+[0073.50] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Steam|76561198079539088|0' MatchmakeRestrictions=4
+[0073.50] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Steam|76561198079539088|0' MatchmakeRestrictions=4
+[0073.50] Party: BroadcastDisableCrossPlay PartyMemberID:'Steam|76561198079539088|0' PartyMembers[ PartyMemberIndex ].bDisableCrossPlay=False
+[0073.70] DevOnline: SteamLobbyDataUpdate: LobbyUID: 109775244897058089, MemberUID: 109775244897058089, bUpdateSuccess: 1
+[0078.17] DevOnline: Steam GameOverlayActivated: 0
+[0079.31] Online: TryToPlayOnline ControllerID=-1
+[0079.31] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0079.31] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0079.31] ScriptLog: OnlineStatusError Invite someone to your party before starting a private match.
+[0090.61] Warning: Warning, Failed to load 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu': Failed to find object 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu'
+[0090.78] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_22 [Population/GetPopulation]
+[0090.78] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_22
+[0090.96] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_22 Response=PsyNetMessage_X_23 Latency=0.1822 
+[0090.97] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_22->PsyNetMessage_X_23 PsyTime=1525054678 [Population/GetPopulation]
+[0102.85] Warning: Warning, Failed to load 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu': Failed to find object 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu'
+[0108.94] Online: TryToPlayOnline ControllerID=-1
+[0108.94] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0108.94] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0108.94] ScriptLog: OnlineStatusError Invite someone to your party before starting a private match.
+[0115.32] Online: TryToPlayOnline ControllerID=-1
+[0115.32] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0115.32] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0115.32] ScriptLog: OnlineStatusError Invite someone to your party before starting a private match.
+[0116.37] Party: ShowInviteUI
+[0116.37] DevOnline: UOnlineLobbyInterfaceSteamworks::ShowInviteUI: 109775244897058089
+[0116.39] DevOnline: Steam GameOverlayActivated: 1
+[0117.50] DevOnline: Steam GameOverlayActivated: 0
+[0133.19] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_24 [Metrics/RecordMetrics]
+[0133.19] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0133.35] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_24 Response=PsyNetMessage_X_25 Latency=0.1586 
+[0133.36] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_24->PsyNetMessage_X_25 PsyTime=1525054720 [Metrics/RecordMetrics]
+[0142.14] Warning: Warning, Failed to load 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu': Failed to find object 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu'
+[0142.19] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_26 [GameServer/GetGameServerPingList]
+[0142.19] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_26 Message=PsyNetMessage_X_26
+[0142.32] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_26 Response=PsyNetMessage_X_27 Latency=0.1301 
+[0142.33] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_26->PsyNetMessage_X_27 PsyTime=1525054729 [GameServer/GetGameServerPingList]
+[0142.33] Log: Using Secure Websockets
+[0142.37] Log: Using Secure Websockets
+[0142.39] Log: Using Secure Websockets
+[0142.41] Log: Using Secure Websockets
+[0142.43] Log: Using Secure Websockets
+[0142.45] Log: Using Secure Websockets
+[0142.51] Log: Using Secure Websockets
+[0142.53] Log: Using Secure Websockets
+[0142.59] Log: Using Secure Websockets
+[0142.60] Log: Using Secure Websockets
+[0144.85] Matchmaking: All Regions Pinged: USE (0.1105), EU (0.2030), USW (0.0640), ASC (0.2034), ASM (0.2101), JPN (0.1473), ME (0.3366), OCE (0.1946), SAF (0.3974), SAM (0.2262)
+[0145.62] Warning: Warning, Failed to load 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu': Failed to find object 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu'
+[0149.33] ScriptLog: Start Splitscreen match Random BotsMedium 2
+[0149.33] DevNet: Browse: cs_p?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests TournamentSettingsSave_TA Request.Data.Length=109 Request.Checksum=1323873334 ManifestChecksum=1323873334 bChecksumMatch=True
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests ExhibitionMatchSettingsSave_TA Request.Data.Length=474 Request.Checksum=-1208587310 ManifestChecksum=1323873334 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests PrivateMatchSettingsSave_TA Request.Data.Length=510 Request.Checksum=162209771 ManifestChecksum=1323873334 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests ServerBrowserSettingsSave_TA Request.Data.Length=109 Request.Checksum=1323873334 ManifestChecksum=1323873334 bChecksumMatch=True
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests SeasonSave_TA Request.Data.Length=21 Request.Checksum=1091286827 ManifestChecksum=0 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests VideoSettingsSavePC_TA Request.Data.Length=113 Request.Checksum=407867734 ManifestChecksum=0 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests AchievementSave_TA Request.Data.Length=2799 Request.Checksum=-1828101294 ManifestChecksum=1672257269 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: PartitionStorageRequests ProductsSave_TA Request.Data.Length=151 Request.Checksum=-1249662048 ManifestChecksum=-1631223737 bChecksumMatch=False
+[0149.34] OnlinePlayerStorage: HandleOnlineStorageCommit TournamentSettingsSave_TA_0 ServerTick=1
+[0149.34] OnlinePlayerStorage: HandleOnlineStorageCommit ServerBrowserSettingsSave_TA_0 ServerTick=1
+[0149.34] Log: Flushing async loaders.
+[0150.68] Log: Flushed async loaders.
+[0150.68] Log: LoadMap: cs_p?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[0150.68] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0150.68] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0150.82] ScriptLog: SetUIState 
+[0150.82] ScriptLog: Script call stack:
+[0150.82] ScriptLog: 	Function TAGame.GFxEngine_TA:OnGameSessionEnded
+[0150.82] ScriptLog: 	Function ProjectX.GFxEngine_X:OnGameSessionEnded
+[0150.82] ScriptLog: 	Function TAGame.GFxShell_TA:HandleGameSessionEnded
+[0150.82] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0151.86] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0152.66] Log: Game class is 'GameInfo_Soccar_TA'
+[0152.78] Log: Bringing World cs_p.TheWorld up for play (0) at 2018.04.29-19.19.02
+[0152.78] Party: UpdatePartyLock NewLockStatus=False
+[0152.78] MatchBroadcast: Init bBroadcastMatch=False MatchLog=None MatchRPC=None
+[0152.79] Log: Bringing up level for play took: 0.124528
+[0152.99] ScriptLog: SetUIState HUD
+[0152.99] ScriptLog: Script call stack:
+[0152.99] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[0152.99] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[0152.99] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0153.02] ScriptLog: SetUIState 
+[0153.02] ScriptLog: Script call stack:
+[0153.02] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[0153.02] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0153.02] ScriptLog: SetUIState HUDSoccar
+[0153.02] ScriptLog: Script call stack:
+[0153.02] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[0153.02] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[0153.02] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0153.09] Loadout: PRI_TA_0 jjkinard ServerSetLoadout
+   Params=(Title="XP",Loadouts[0]=(Products=((ProductID=22),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_3'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90)),Loadouts[1]=(Products=((ProductID=22),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_3'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90)))
+[0153.09] Loadout: PRI_TA_0 jjkinard SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(22,0,364,52,573,0,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(22,0,364,52,573,0,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))
+[0153.09] DevOnline: Set rich presence to: Exhibition in Champions Field data: Playlist-8
+[0153.09] Log: ########### Finished loading level: 2.402547 seconds
+[0153.09] Log: Flushing async loaders.
+[0153.77] Log: Flushed async loaders.
+[0153.78] DevOnline: SteamLobbyDataUpdate: LobbyUID: 109775244897058089, MemberUID: 109775244897058089, bUpdateSuccess: 1
+[0153.78] Party: BroadcastMatchmakingAvailabilityDelayed PartyMemberID:'Steam|76561198079539088|0' MatchmakeRestrictions=0
+[0153.78] Party: SetAvailableForMatchmakingForMember PartyMemberID:'Steam|76561198079539088|0' MatchmakeRestrictions=0
+[0153.78] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_28 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics Ads/GetAds]
+[0153.78] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_28
+[0153.84] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0154.37] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_29 [Population/UpdatePlayerPlaylist Ads/GetAds]
+[0154.37] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_29 Message=PsyNetMessage_X_29
+[0154.37] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_28 Response=PsyNetMessage_X_30 Latency=0.5906 
+[0154.47] Warning: Warning, Failed to load 'SwfMovie GFX_TeamSelect.TeamSelect': Failed to find object 'SwfMovie GFX_TeamSelect.TeamSelect'
+[0154.65] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_28->PsyNetMessage_X_30 PsyTime=1525054741 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics Ads/GetAds]
+[0154.65] OnlinePlayerStorage: Manifest SetChecksum ExhibitionMatchSettingsSave_TA Checksum=-1208587310
+[0154.65] OnlinePlayerStorage: Manifest SetChecksum PrivateMatchSettingsSave_TA Checksum=162209771
+[0154.66] OnlinePlayerStorage: Manifest SetChecksum SeasonSave_TA Checksum=1091286827
+[0154.66] OnlinePlayerStorage: Manifest SetChecksum VideoSettingsSavePC_TA Checksum=407867734
+[0154.66] OnlinePlayerStorage: Manifest SetChecksum AchievementSave_TA Checksum=-1828101294
+[0154.66] OnlinePlayerStorage: Manifest SetChecksum ProductsSave_TA Checksum=-1249662048
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit ExhibitionMatchSettingsSave_TA_0 ServerTick=2
+[0154.66] OnlinePlayerStorage: SyncComplete ExhibitionMatchSettingsSave_TA UpdateTick 1 -> 2
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit PrivateMatchSettingsSave_TA_0 ServerTick=2
+[0154.66] OnlinePlayerStorage: SyncComplete PrivateMatchSettingsSave_TA UpdateTick 1 -> 2
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit SeasonSave_TA_0 ServerTick=0
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit VideoSettingsSavePC_TA_0 ServerTick=0
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit AchievementSave_TA_0 ServerTick=2
+[0154.66] OnlinePlayerStorage: SyncComplete AchievementSave_TA UpdateTick 1 -> 2
+[0154.66] OnlinePlayerStorage: HandleOnlineStorageCommit ProductsSave_TA_0 ServerTick=4
+[0154.66] OnlinePlayerStorage: SyncComplete ProductsSave_TA UpdateTick 3 -> 4
+[0154.83] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_29 Response=PsyNetMessage_X_31 Latency=0.4650 
+[0154.84] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_29->PsyNetMessage_X_31 PsyTime=1525054742 [Population/UpdatePlayerPlaylist Ads/GetAds]
+[0155.64] Log: FSaveDataExportTask(0) wrote 33372 bytes to memory
+[0155.64] Log: SaveGameDataAsync game thread time: 1 ms
+[0155.65] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088.save
+[0155.65] Log: SaveDataExport(0): Finished - File:[(null)] Result:[15032320]
+[0173.60] Loadout: PRI_TA_1 Maverick SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=35),Title="XP",Products=(22,301,363,56,0,0,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=33),Title="XP",Products=(22,301,363,56,0,0,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))
+[0177.50] Achievements: IncrementStat 2 3
+[0177.55] DevOnline: Stored steam user stats.
+[0209.34] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_32 [Metrics/RecordMetrics]
+[0209.34] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_32 Message=PsyNetMessage_X_32
+[0209.46] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_32 Response=PsyNetMessage_X_33 Latency=0.1225 
+[0209.47] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_32->PsyNetMessage_X_33 PsyTime=1525054796 [Metrics/RecordMetrics]
+[0211.01] Achievements: IncrementStat 12 4
+[0211.19] DevOnline: Stored steam user stats.
+[0229.34] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileCameraSave_TA 3
+[0403.95] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_40 [Metrics/RecordMetrics]
+[0403.95] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_40 Message=PsyNetMessage_X_40
+[0404.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_40 Response=PsyNetMessage_X_41 Latency=0.1187 
+[0404.08] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_40->PsyNetMessage_X_41 PsyTime=1525054991 [Metrics/RecordMetrics]
+[0420.39] Achievements: IncrementStat 69 13
+[0420.43] DevOnline: Stored steam user stats.
+[0420.54] Party: Party Time out occurred and no one is in the party
+[0420.54] Matchmaking: Cancel matchmaking because party was destroyed
+[0422.44] Achievements: IncrementStat 52 0
+[0422.44] Achievements: IncrementStat 51 0
+[0422.49] DevOnline: Stored steam user stats.
+[0422.49] DevOnline: Stored steam user stats.
+[0454.01] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_42 [Population/UpdatePlayerPlaylist]
+[0454.01] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_42 Message=PsyNetMessage_X_42
+[0454.17] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_42 Response=PsyNetMessage_X_43 Latency=0.1531 
+[0454.17] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_42->PsyNetMessage_X_43 PsyTime=1525055041 [Population/UpdatePlayerPlaylist]
+[0465.93] DevOnline: Logged in as 'jjkinard'
+[0465.93] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleLoginStatusChanged
+[0465.93] DevOnline: Successfully set the friend join URL: 
+[0465.93] Party: HandleLocalPlayerLoginStatusChanged PlayerName=jjkinard PlayerID=Steam|76561198079539088|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0465.93] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_44 [Skills/GetPlayerSkill]
+[0465.93] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_44 Message=PsyNetMessage_X_44
+[0466.05] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_44 Response=PsyNetMessage_X_45 Latency=0.1254 
+[0466.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_44->PsyNetMessage_X_45 PsyTime=1525055053 [Skills/GetPlayerSkill]
+[0480.55] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_46 [Metrics/RecordMetrics]
+[0480.55] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_46 Message=PsyNetMessage_X_46
+[0480.66] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_46 Response=PsyNetMessage_X_47 Latency=0.1176 
+[0480.67] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_46->PsyNetMessage_X_47 PsyTime=1525055068 [Metrics/RecordMetrics]
+[0483.65] Achievements: IncrementStat 12 5
+[0483.70] DevOnline: Stored steam user stats.
+[0500.54] Achievements: IncrementStat 69 14
+[0500.56] DevOnline: Stored steam user stats.
+[0501.65] Achievements: IncrementStat 52 0
+[0501.65] Achievements: IncrementStat 51 0
+[0501.66] DevOnline: Stored steam user stats.
+[0501.70] DevOnline: Stored steam user stats.
+[0548.16] ScriptWarning: ScriptWarning, Accessed array 'CrowdSoundManager_TA_0.MatchEndCountDown' out of bounds (-1/10)
+	CrowdSoundManager_TA cs_p.TheWorld:PersistentLevel.GameEvent_Soccar_TA_0.CrowdSoundManager_TA_0
+	Function TAGame.CrowdSoundManager_TA:PlayMatchEndCountdown:00B1
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Active.Tick
+	Function TAGame.GameEvent_Soccar_TA:Active.UpdateGameTime
+	Function TAGame.GameEvent_Soccar_TA:OnGameTimeUpdated
+	Function TAGame.CrowdSoundManager_TA:HandleGameTimeUpdated
+	Function TAGame.CrowdSoundManager_TA:PlayMatchEndCountdown
+
+[0548.57] EndGameDebug: HandleBallHitWorld: Ball_TA_16 1.0000
+[0548.57] Achievements: Unlock Achievement AT_Game 35
+[0548.57] Achievements: IncrementStat 11 11
+[0548.57] Achievements: IncrementStat 72 1
+[0548.57] Achievements: IncrementStat 8 10
+[0548.57] Achievements: IncrementStat 1 10
+[0548.58] Warning: Warning, Failed to load 'Texture None.null': Failed to find object 'Texture None.null'
+[0548.58] Warning: Warning, Failed to load 'SwfMovie GFX_WinnerMenu.WinnerMenu': Failed to find object 'SwfMovie GFX_WinnerMenu.WinnerMenu'
+[0550.28] DevOnline: Stored steam user stats.
+[0550.28] DevOnline: Stored steam user stats.
+[0550.28] DevOnline: Stored steam user stats.
+[0550.28] DevOnline: Stored steam user stats.
+[0550.28] DevOnline: Stored steam user stats.
+[0550.89] Achievements: IncrementStat 42 0
+[0550.89] Achievements: IncrementStat 40 0
+[0550.89] Rewards: Season Rewards 
+[0550.89] Rewards: Match Complete Body Rewards 
+[0550.89] Rewards: Random Unlock ProductID=233
+[0550.89] Achievements: IncrementStat 8 11
+[0550.89] Achievements: IncrementStat 1 11
+[0550.89] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:AddDrop (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=233 PendingDrops.Length=1
+[0550.89] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0550.89] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=233 PendingDrops.Length = 1 PendingCurrencyDrops.Length = 0
+[0550.89] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=0 PendingDrop=233
+[0550.89] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:DebugItemDrops Offline Product Exists=233 ProductLabel=Hard Hat
+[0550.89] ScriptLog: Script call stack:
+[0550.89] ScriptLog: 	Function TAGame.GameEvent_Soccar_TA:GenerateItemDrops
+[0550.89] ScriptLog: 	Function TAGame.GameEvent_TA:GenerateItemDrops
+[0550.89] ScriptLog: 	Function TAGame.PRI_TA:GenerateItemDrop
+[0550.89] ScriptLog: 	Function TAGame.PRI_TA:ClientGenerateItemDrop
+[0550.89] ScriptLog: 	Function TAGame.SaveData_TA:UnlockRandomDrop
+[0550.89] ScriptLog: 	Function TAGame.ProductsOfflineSave_TA:UnlockProduct
+[0550.89] ScriptLog: 	Function TAGame.SaveData_TA:HandleProductUnlocked
+[0550.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:HandleRewardUnlocked
+[0550.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:AddDrop
+[0550.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0550.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0550.89] Rewards: ClientGenerateItemDrop jjkinard RewardId=233
+[0550.90] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileStatsSave_TA 3
+[0550.90] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ClientXPSave_TA 3
+[0550.90] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProductsOfflineSave_TA 4
+[0550.90] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProductsSave_TA 4
+[0550.92] DevOnline: Stored steam user stats.
+[0550.92] DevOnline: Stored steam user stats.
+[0550.92] DevOnline: Stored steam user stats.
+[0550.92] DevOnline: Stored steam user stats.
+[0557.34] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0557.34] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[0558.92] Error: Can't end an online game that hasn't been created
+[0558.93] Warning: Warning, Failed to load 'SwfMovie GFX_EndGameMenu.EndGameMenu': Failed to find object 'SwfMovie GFX_EndGameMenu.EndGameMenu'
+[0559.12] Warning: Warning, Failed to load 'SwfMovie GFX_UnlockMenu.UnlockMenu': Failed to find object 'SwfMovie GFX_UnlockMenu.UnlockMenu'
+[0559.30] Log: FSaveDataExportTask(0) wrote 34139 bytes to memory
+[0559.30] Log: SaveGameDataAsync game thread time: 1 ms
+[0559.30] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_50 [SaveData/Update]
+[0559.30] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_50 Message=PsyNetMessage_X_50
+[0559.31] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_2.save
+[0559.31] Log: SaveDataExport(0): Finished - File:[(null)] Result:[15045376]
+[0559.74] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_50 Response=PsyNetMessage_X_51 Latency=0.4459 
+[0559.75] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_50->PsyNetMessage_X_51 PsyTime=1525055146 [SaveData/Update]
+[0561.58] ScriptWarning: ScriptWarning, Accessed None 'Game'
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_2
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:0467
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0561.58] ScriptWarning: ScriptWarning, Accessed None
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_2
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:047B
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0561.58] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileLoadoutSave_TA 3
+[0561.58] ScriptWarning: ScriptWarning, Accessed None 'Game'
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_2
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:0467
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0561.58] ScriptWarning: ScriptWarning, Accessed None
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_2
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:047B
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0561.58] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=233
+[0561.58] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0561.58] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0561.58] ScriptLog: Script call stack:
+[0561.58] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropHandled
+[0561.58] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0561.58] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0561.59] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0561.59] Products: (GFxData_ItemDrops_TA_2) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0561.59] ScriptLog: Script call stack:
+[0561.59] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropsHandled
+[0561.59] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0561.59] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0561.67] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_52 [Metrics/RecordMetrics]
+[0561.67] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_52 Message=PsyNetMessage_X_52
+[0561.85] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_52 Response=PsyNetMessage_X_53 Latency=0.1785 
+[0561.85] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_52->PsyNetMessage_X_53 PsyTime=1525055149 [Metrics/RecordMetrics]
+[0562.30] Log: FSaveDataExportTask(0) wrote 34074 bytes to memory
+[0562.30] Log: SaveGameDataAsync game thread time: 1 ms
+[0562.31] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_1.save
+[0562.31] Log: SaveDataExport(0): Finished - File:[(null)] Result:[15025408]
+[0564.04] DevNet: Browse: Stadium_Winter_P?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ExhibitionMatchSettingsSave_TA Request.Data.Length=474 Request.Checksum=-1208587310 ManifestChecksum=-1208587310 bChecksumMatch=True
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ProfileCameraSave_TA Request.Data.Length=75 Request.Checksum=826553989 ManifestChecksum=1091286827 bChecksumMatch=False
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ProfileStatsSave_TA Request.Data.Length=4609 Request.Checksum=1499419889 ManifestChecksum=349783934 bChecksumMatch=False
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ClientXPSave_TA Request.Data.Length=61 Request.Checksum=206851288 ManifestChecksum=-2114025688 bChecksumMatch=False
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ProductsOfflineSave_TA Request.Data.Length=1873 Request.Checksum=-1875856175 ManifestChecksum=1831229565 bChecksumMatch=False
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ProductsSave_TA Request.Data.Length=151 Request.Checksum=-1249662048 ManifestChecksum=-1249662048 bChecksumMatch=True
+[0564.05] OnlinePlayerStorage: PartitionStorageRequests ProfileLoadoutSave_TA Request.Data.Length=1667 Request.Checksum=-358086936 ManifestChecksum=-978763447 bChecksumMatch=False
+[0564.05] OnlinePlayerStorage: HandleOnlineStorageCommit ExhibitionMatchSettingsSave_TA_0 ServerTick=1
+[0564.05] OnlinePlayerStorage: SyncComplete ExhibitionMatchSettingsSave_TA UpdateTick 2 -> 1
+[0564.05] OnlinePlayerStorage: HandleOnlineStorageCommit ProductsSave_TA_0 ServerTick=4
+[0564.05] Log: Flushing async loaders.
+[0564.10] Log: Flushed async loaders.
+[0564.10] Log: LoadMap: Stadium_Winter_P?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[0564.10] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0564.13] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[0564.13] ScriptLog: SetUIState 
+[0564.13] ScriptLog: Script call stack:
+[0564.13] ScriptLog: 	Function TAGame.GFxHUD_Soccar_TA:Destroyed
+[0564.13] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[0564.13] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0564.14] ScriptLog: SetUIState 
+[0564.14] ScriptLog: Script call stack:
+[0564.14] ScriptLog: 	Function TAGame.GFxEngine_TA:OnGameSessionEnded
+[0564.14] ScriptLog: 	Function ProjectX.GFxEngine_X:OnGameSessionEnded
+[0564.14] ScriptLog: 	Function TAGame.GFxShell_TA:HandleGameSessionEnded
+[0564.14] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0565.54] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0566.42] Log: Game class is 'GameInfo_Soccar_TA'
+[0566.50] Log: Bringing World Stadium_Winter_P.TheWorld up for play (0) at 2018.04.29-19.25.56
+[0566.50] MatchBroadcast: Init bBroadcastMatch=False MatchLog=None MatchRPC=None
+[0566.50] Log: Bringing up level for play took: 0.080547
+[0566.79] ScriptLog: SetUIState HUD
+[0566.79] ScriptLog: Script call stack:
+[0566.79] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[0566.79] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[0566.79] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0566.82] ScriptLog: SetUIState 
+[0566.82] ScriptLog: Script call stack:
+[0566.82] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[0566.82] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0566.82] ScriptLog: SetUIState HUDSoccar
+[0566.82] ScriptLog: Script call stack:
+[0566.82] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[0566.82] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[0566.82] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[0566.89] Loadout: PRI_TA_2 jjkinard ServerSetLoadout
+   Params=(Title="XP",Loadouts[0]=(Products=((ProductID=22),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=5,ProductID=233),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_21'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90)),Loadouts[1]=(Products=((ProductID=22),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=5,ProductID=233),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_21'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90)))
+[0566.89] Loadout: PRI_TA_2 jjkinard SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(22,0,364,52,573,233,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(22,0,364,52,573,233,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))
+[0566.89] DevOnline: Set rich presence to: Exhibition in DFH Stadium (Snowy) data: Playlist-8
+[0566.89] Log: ########### Finished loading level: 2.784475 seconds
+[0566.89] Log: Flushing async loaders.
+[0567.02] Log: Flushed async loaders.
+[0567.02] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ExhibitionMatchSettingsSave_TA 1
+[0567.02] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_54 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics Ads/GetAds]
+[0567.02] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_54 Message=PsyNetMessage_X_54
+[0567.05] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0567.44] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_55 [Population/UpdatePlayerPlaylist]
+[0567.44] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_55 Message=PsyNetMessage_X_55
+[0567.50] Warning: Warning, Failed to load 'SwfMovie GFX_TeamSelect.TeamSelect': Failed to find object 'SwfMovie GFX_TeamSelect.TeamSelect'
+[0567.70] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_54 Response=PsyNetMessage_X_56 Latency=0.6819 
+[0567.72] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_54->PsyNetMessage_X_56 PsyTime=1525055154 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics Ads/GetAds]
+[0567.72] OnlinePlayerStorage: Manifest SetChecksum ProfileCameraSave_TA Checksum=826553989
+[0567.72] OnlinePlayerStorage: Manifest SetChecksum ProfileStatsSave_TA Checksum=1499419889
+[0567.72] OnlinePlayerStorage: Manifest SetChecksum ClientXPSave_TA Checksum=206851288
+[0567.72] OnlinePlayerStorage: Manifest SetChecksum ProductsOfflineSave_TA Checksum=-1875856175
+[0567.72] OnlinePlayerStorage: Manifest SetChecksum ProfileLoadoutSave_TA Checksum=-358086936
+[0567.72] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileCameraSave_TA_0 ServerTick=4
+[0567.72] OnlinePlayerStorage: SyncComplete ProfileCameraSave_TA UpdateTick 3 -> 4
+[0567.72] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileStatsSave_TA_0 ServerTick=4
+[0567.72] OnlinePlayerStorage: SyncComplete ProfileStatsSave_TA UpdateTick 3 -> 4
+[0567.72] OnlinePlayerStorage: HandleOnlineStorageCommit ClientXPSave_TA_0 ServerTick=4
+[0567.72] OnlinePlayerStorage: SyncComplete ClientXPSave_TA UpdateTick 3 -> 4
+[0567.72] OnlinePlayerStorage: HandleOnlineStorageCommit ProductsOfflineSave_TA_0 ServerTick=5
+[0567.72] OnlinePlayerStorage: SyncComplete ProductsOfflineSave_TA UpdateTick 4 -> 5
+[0567.72] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileLoadoutSave_TA_0 ServerTick=4
+[0567.72] OnlinePlayerStorage: SyncComplete ProfileLoadoutSave_TA UpdateTick 3 -> 4
+[0567.81] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_55 Response=PsyNetMessage_X_57 Latency=0.3715 
+[0567.82] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_55->PsyNetMessage_X_57 PsyTime=1525055155 [Population/UpdatePlayerPlaylist]
+[0567.88] Log: FSaveDataExportTask(0) wrote 34074 bytes to memory
+[0567.88] Log: SaveGameDataAsync game thread time: 1 ms
+[0567.89] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088.save
+[0567.89] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1392892544]
+[0575.75] Loadout: PRI_TA_3 Sultan SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=35),Title="XP",Products=(24,309,383,37,0,228,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=33),Title="XP",Products=(24,309,383,37,0,228,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))
+[0599.46] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0599.46] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[0600.49] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0624.04] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_58 [Metrics/RecordMetrics]
+[0624.04] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_58 Message=PsyNetMessage_X_58
+[0624.21] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_58 Response=PsyNetMessage_X_59 Latency=0.1669 
+[0624.21] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_58->PsyNetMessage_X_59 PsyTime=1525055211 [Metrics/RecordMetrics]
+[0645.48] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileCameraSave_TA 4
+[0673.45] Achievements: IncrementStat 2 4
+[0673.51] DevOnline: Stored steam user stats.
+[0704.34] Achievements: IncrementStat 69 15
+[0704.36] DevOnline: Stored steam user stats.
+[0705.67] Achievements: IncrementStat 52 0
+[0705.67] Achievements: IncrementStat 51 0
+[0705.70] DevOnline: Stored steam user stats.
+[0705.70] DevOnline: Stored steam user stats.
+[0734.53] Achievements: IncrementStat 69 16
+[0734.58] DevOnline: Stored steam user stats.
+[0736.68] Achievements: IncrementStat 52 0
+[0736.68] Achievements: IncrementStat 51 0
+[0736.70] DevOnline: Stored steam user stats.
+[0736.70] DevOnline: Stored steam user stats.
+[0745.33] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0745.34] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[0750.85] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0765.67] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_64 [Metrics/RecordMetrics]
+[0765.67] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_64 Message=PsyNetMessage_X_64
+[0765.88] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_64 Response=PsyNetMessage_X_65 Latency=0.2042 
+[0765.88] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_64->PsyNetMessage_X_65 PsyTime=1525055353 [Metrics/RecordMetrics]
+[0835.41] Achievements: IncrementStat 69 17
+[0835.42] DevOnline: Stored steam user stats.
+[0851.83] Log: UImpactEffectsComponent_TA::HandleCollision - HitComponent CarMeshComponent_TA_38 is NULL or not attached
+[0861.24] Log: UImpactEffectsComponent_TA::HandleCollision - HitComponent CarMeshComponent_TA_39 is NULL or not attached
+[0867.13] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_68 [Population/UpdatePlayerPlaylist]
+[0867.13] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_68 Message=PsyNetMessage_X_68
+[0867.34] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_68 Response=PsyNetMessage_X_69 Latency=0.2128 
+[0867.35] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_68->PsyNetMessage_X_69 PsyTime=1525055454 [Population/UpdatePlayerPlaylist]
+[0941.90] ScriptWarning: ScriptWarning, Accessed array 'CrowdSoundManager_TA_1.MatchEndCountDown' out of bounds (-1/10)
+	CrowdSoundManager_TA Stadium_Winter_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_1.CrowdSoundManager_TA_1
+	Function TAGame.CrowdSoundManager_TA:PlayMatchEndCountdown:00B1
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Active.Tick
+	Function TAGame.GameEvent_Soccar_TA:Active.UpdateGameTime
+	Function TAGame.GameEvent_Soccar_TA:OnGameTimeUpdated
+	Function TAGame.CrowdSoundManager_TA:HandleGameTimeUpdated
+	Function TAGame.CrowdSoundManager_TA:PlayMatchEndCountdown
+
+[0942.40] EndGameDebug: HandleBallHitWorld: Ball_TA_28 1.0000
+[0942.40] Achievements: IncrementStat 3 8
+[0942.41] Achievements: IncrementStat 11 12
+[0942.41] Achievements: IncrementStat 72 1
+[0942.41] Achievements: IncrementStat 8 11
+[0942.41] Achievements: IncrementStat 1 11
+[0942.42] Warning: Warning, Failed to load 'SwfMovie GFX_WinnerMenu.WinnerMenu': Failed to find object 'SwfMovie GFX_WinnerMenu.WinnerMenu'
+[0945.49] DevOnline: Stored steam user stats.
+[0945.49] DevOnline: Stored steam user stats.
+[0945.49] DevOnline: Stored steam user stats.
+[0945.49] DevOnline: Stored steam user stats.
+[0945.49] DevOnline: Stored steam user stats.
+[0946.09] Achievements: IncrementStat 42 0
+[0946.09] Achievements: IncrementStat 40 0
+[0946.09] Rewards: Season Rewards 
+[0946.09] Rewards: Match Complete Body Rewards 
+[0946.09] Rewards: Random Unlock ProductID=29
+[0946.10] Achievements: IncrementStat 8 12
+[0946.10] Achievements: IncrementStat 1 12
+[0946.10] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:AddDrop (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=29 PendingDrops.Length=1
+[0946.10] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0946.10] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=29 PendingDrops.Length = 1 PendingCurrencyDrops.Length = 0
+[0946.10] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:DebugItemDrops (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard Index=0 PendingDrop=29
+[0946.10] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:DebugItemDrops Offline Product Exists=29 ProductLabel=Hotshot
+[0946.10] ScriptLog: Script call stack:
+[0946.10] ScriptLog: 	Function TAGame.GameEvent_Soccar_TA:GenerateItemDrops
+[0946.10] ScriptLog: 	Function TAGame.GameEvent_TA:GenerateItemDrops
+[0946.10] ScriptLog: 	Function TAGame.PRI_TA:GenerateItemDrop
+[0946.10] ScriptLog: 	Function TAGame.PRI_TA:ClientGenerateItemDrop
+[0946.10] ScriptLog: 	Function TAGame.SaveData_TA:UnlockRandomDrop
+[0946.10] ScriptLog: 	Function TAGame.ProductsOfflineSave_TA:UnlockProduct
+[0946.10] ScriptLog: 	Function TAGame.SaveData_TA:HandleProductUnlocked
+[0946.10] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:HandleRewardUnlocked
+[0946.10] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:AddDrop
+[0946.10] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0946.10] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0946.10] Rewards: ClientGenerateItemDrop jjkinard RewardId=29
+[0946.14] DevOnline: Stored steam user stats.
+[0946.14] DevOnline: Stored steam user stats.
+[0946.14] DevOnline: Stored steam user stats.
+[0946.14] DevOnline: Stored steam user stats.
+[0946.14] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileStatsSave_TA 4
+[0946.14] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ClientXPSave_TA 4
+[0946.14] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProductsOfflineSave_TA 5
+[0946.14] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProductsSave_TA 4
+[0951.80] DevOnline: Logged in as 'jjkinard'
+[0951.80] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleLoginStatusChanged
+[0951.80] DevOnline: Successfully set the friend join URL: 
+[0951.80] Party: HandleLocalPlayerLoginStatusChanged PlayerName=jjkinard PlayerID=Steam|76561198079539088|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0951.80] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_72 [Skills/GetPlayerSkill]
+[0951.80] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_72 Message=PsyNetMessage_X_72
+[0952.61] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_72 Response=PsyNetMessage_X_73 Latency=0.8149 
+[0952.91] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_72->PsyNetMessage_X_73 PsyTime=1525055539 [Skills/GetPlayerSkill]
+[0953.50] Error: Can't end an online game that hasn't been created
+[0953.51] Warning: Warning, Failed to load 'SwfMovie GFX_EndGameMenu.EndGameMenu': Failed to find object 'SwfMovie GFX_EndGameMenu.EndGameMenu'
+[0953.68] Warning: Warning, Failed to load 'SwfMovie GFX_UnlockMenu.UnlockMenu': Failed to find object 'SwfMovie GFX_UnlockMenu.UnlockMenu'
+[0954.04] Log: FSaveDataExportTask(0) wrote 34482 bytes to memory
+[0954.04] Log: SaveGameDataAsync game thread time: 1 ms
+[0954.04] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_74 [SaveData/Update]
+[0954.04] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_74 Message=PsyNetMessage_X_74
+[0954.05] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_2.save
+[0954.05] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1392886528]
+[0954.31] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_74 Response=PsyNetMessage_X_75 Latency=0.2687 
+[0954.32] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_74->PsyNetMessage_X_75 PsyTime=1525055541 [SaveData/Update]
+[0955.88] ScriptWarning: ScriptWarning, Accessed None 'Game'
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_4
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:0467
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0955.88] ScriptWarning: ScriptWarning, Accessed None
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_4
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:047B
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0955.88] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ProfileLoadoutSave_TA 4
+[0955.88] ScriptWarning: ScriptWarning, Accessed None 'Game'
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_4
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:0467
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0955.88] ScriptWarning: ScriptWarning, Accessed None
+	GFxData_ItemDrops_TA Transient.GFxData_ItemDrops_TA_4
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow:047B
+Script call stack:
+	Function TAGame.GFxData_ItemDrops_TA:EquipNow
+
+[0955.89] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=29
+[0955.89] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0955.89] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0955.89] ScriptLog: Script call stack:
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropHandled
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0955.89] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:ClearDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard
+[0955.89] Products: (GFxData_ItemDrops_TA_4) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198079539088,Platform=OnlinePlatform_Steam) jjkinard DropID=0 PendingDrops.Length = 0 PendingCurrencyDrops.Length = 0
+[0955.89] ScriptLog: Script call stack:
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:OnDropsHandled
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:SetDropData
+[0955.89] ScriptLog: 	Function TAGame.GFxData_ItemDrops_TA:DebugItemDrops
+[0956.83] DevOnline: Steam GameOverlayActivated: 1
+[0957.08] Log: FSaveDataExportTask(0) wrote 34418 bytes to memory
+[0957.08] Log: SaveGameDataAsync game thread time: 1 ms
+[0957.09] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_1.save
+[0957.09] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1392875520]
+[0970.22] DevOnline: Steam GameOverlayActivated: 0
+[0979.20] DevOnline: Steam GameOverlayActivated: 1
+[1002.41] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_76 [Metrics/RecordMetrics]
+[1002.41] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_76 Message=PsyNetMessage_X_76
+[1002.52] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_76 Response=PsyNetMessage_X_77 Latency=0.1139 
+[1002.53] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_76->PsyNetMessage_X_77 PsyTime=1525055590 [Metrics/RecordMetrics]
+[1014.01] DevOnline: Steam GameOverlayActivated: 0
+[1016.95] DevNet: Browse: TrainStation_Night_P?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ExhibitionMatchSettingsSave_TA Request.Data.Length=474 Request.Checksum=-1208587310 ManifestChecksum=-1208587310 bChecksumMatch=True
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ProfileCameraSave_TA Request.Data.Length=75 Request.Checksum=826553989 ManifestChecksum=826553989 bChecksumMatch=True
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ProfileStatsSave_TA Request.Data.Length=4872 Request.Checksum=-1752815794 ManifestChecksum=1499419889 bChecksumMatch=False
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ClientXPSave_TA Request.Data.Length=61 Request.Checksum=-2064959674 ManifestChecksum=206851288 bChecksumMatch=False
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ProductsOfflineSave_TA Request.Data.Length=1877 Request.Checksum=-1051050807 ManifestChecksum=-1875856175 bChecksumMatch=False
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ProductsSave_TA Request.Data.Length=151 Request.Checksum=-1249662048 ManifestChecksum=-1249662048 bChecksumMatch=True
+[1016.95] OnlinePlayerStorage: PartitionStorageRequests ProfileLoadoutSave_TA Request.Data.Length=1667 Request.Checksum=-829847970 ManifestChecksum=-358086936 bChecksumMatch=False
+[1016.95] OnlinePlayerStorage: HandleOnlineStorageCommit ExhibitionMatchSettingsSave_TA_0 ServerTick=1
+[1016.95] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileCameraSave_TA_0 ServerTick=4
+[1016.95] OnlinePlayerStorage: HandleOnlineStorageCommit ProductsSave_TA_0 ServerTick=4
+[1016.96] Log: Flushing async loaders.
+[1017.00] Log: Flushed async loaders.
+[1017.00] Log: LoadMap: TrainStation_Night_P?game=TAGame.GameInfo_Soccar_TA?Playtest?GameTags=BotsMedium,PlayerCount2?NumPublicConnections=8?NumOpenPublicConnections=8?Offline
+[1017.00] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[1017.03] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[1017.03] ScriptLog: SetUIState 
+[1017.03] ScriptLog: Script call stack:
+[1017.03] ScriptLog: 	Function TAGame.GFxHUD_Soccar_TA:Destroyed
+[1017.03] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[1017.03] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1017.05] ScriptLog: SetUIState 
+[1017.05] ScriptLog: Script call stack:
+[1017.05] ScriptLog: 	Function TAGame.GFxEngine_TA:OnGameSessionEnded
+[1017.05] ScriptLog: 	Function ProjectX.GFxEngine_X:OnGameSessionEnded
+[1017.05] ScriptLog: 	Function TAGame.GFxShell_TA:HandleGameSessionEnded
+[1017.05] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1018.13] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[1019.01] Log: Game class is 'GameInfo_Soccar_TA'
+[1019.02] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_475 (Owner: TrainStation_Night_P.TheWorld:PersistentLevel.MeshCollector2) Outside World.
+[1019.02] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_722 (Owner: TrainStation_Night_P.TheWorld:PersistentLevel.MeshCollector2) Outside World.
+[1019.11] Log: Bringing World TrainStation_Night_P.TheWorld up for play (0) at 2018.04.29-19.33.28
+[1019.11] MatchBroadcast: Init bBroadcastMatch=False MatchLog=None MatchRPC=None
+[1019.11] ScriptWarning: ScriptWarning, Accessed None 'Sounds'
+	CrowdSoundManager_TA TrainStation_Night_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2.CrowdSoundManager_TA_2
+	Function TAGame.CrowdSoundManager_TA:Attached:00DD
+Script call stack:
+	Function TAGame.CrowdSoundManager_TA:Attached
+
+[1019.12] Log: Bringing up level for play took: 0.101947
+[1019.37] ScriptLog: SetUIState HUD
+[1019.37] ScriptLog: Script call stack:
+[1019.37] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[1019.37] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[1019.37] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1019.40] ScriptLog: SetUIState 
+[1019.40] ScriptLog: Script call stack:
+[1019.40] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[1019.40] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1019.40] ScriptLog: SetUIState HUDSoccar
+[1019.40] ScriptLog: Script call stack:
+[1019.40] ScriptLog: 	Function TAGame.GFxHUD_TA:PostBeginPlay
+[1019.40] ScriptLog: 	Function TAGame.GFxHUD_TA:InitGFx
+[1019.40] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1019.46] Loadout: PRI_TA_4 jjkinard ServerSetLoadout
+   Params=(Title="XP",Loadouts[0]=(Products=((ProductID=29),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=5,ProductID=233),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_57'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90)),Loadouts[1]=(Products=((ProductID=29),(SlotIndex=2,ProductID=364),(SlotIndex=3,ProductID=52),(SlotIndex=4,ProductID=573),(SlotIndex=5,ProductID=233),(SlotIndex=7,ProductID=270),(SlotIndex=12,ProductID=270),(SlotIndex=14,ProductID=1948),(SlotIndex=15,ProductID=1972),(SlotIndex=16,ProductID=2526,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_57'))),TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90)))
+[1019.46] Loadout: PRI_TA_4 jjkinard SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=40,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(29,0,364,52,573,233,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=57,CustomColorID=90),Title="XP",OnlineProducts=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),Products=(29,0,364,52,573,233,0,270,0,0,0,0,270,0,1948,1972,2526,0,0))
+[1019.46] DevOnline: Set rich presence to: Exhibition in Urban Central (Night) data: Playlist-8
+[1019.46] Log: ########### Finished loading level: 2.459079 seconds
+[1019.46] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ExhibitionMatchSettingsSave_TA 1
+[1019.47] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_78 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics]
+[1019.47] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_78 Message=PsyNetMessage_X_78
+[1019.66] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_79 [Population/UpdatePlayerPlaylist]
+[1019.66] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_79 Message=PsyNetMessage_X_79
+[1019.69] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_78 Response=PsyNetMessage_X_80 Latency=0.2291 
+[1019.70] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[1020.19] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_78->PsyNetMessage_X_80 PsyTime=1525055607 [GenericStorage/SetPlayerGenericStorage Metrics/RecordMetrics]
+[1020.19] OnlinePlayerStorage: Manifest SetChecksum ProfileStatsSave_TA Checksum=-1752815794
+[1020.19] OnlinePlayerStorage: Manifest SetChecksum ClientXPSave_TA Checksum=-2064959674
+[1020.19] OnlinePlayerStorage: Manifest SetChecksum ProductsOfflineSave_TA Checksum=-1051050807
+[1020.19] OnlinePlayerStorage: Manifest SetChecksum ProfileLoadoutSave_TA Checksum=-829847970
+[1020.19] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileStatsSave_TA_0 ServerTick=5
+[1020.19] OnlinePlayerStorage: SyncComplete ProfileStatsSave_TA UpdateTick 4 -> 5
+[1020.19] OnlinePlayerStorage: HandleOnlineStorageCommit ClientXPSave_TA_0 ServerTick=5
+[1020.20] OnlinePlayerStorage: SyncComplete ClientXPSave_TA UpdateTick 4 -> 5
+[1020.20] OnlinePlayerStorage: HandleOnlineStorageCommit ProductsOfflineSave_TA_0 ServerTick=6
+[1020.20] OnlinePlayerStorage: SyncComplete ProductsOfflineSave_TA UpdateTick 5 -> 6
+[1020.20] OnlinePlayerStorage: HandleOnlineStorageCommit ProfileLoadoutSave_TA_0 ServerTick=5
+[1020.20] OnlinePlayerStorage: SyncComplete ProfileLoadoutSave_TA UpdateTick 4 -> 5
+[1020.20] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_79 Response=PsyNetMessage_X_81 Latency=0.5309 
+[1020.28] Warning: Warning, Failed to load 'SwfMovie GFX_TeamSelect.TeamSelect': Failed to find object 'SwfMovie GFX_TeamSelect.TeamSelect'
+[1020.56] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_79->PsyNetMessage_X_81 PsyTime=1525055607 [Population/UpdatePlayerPlaylist]
+[1021.12] Log: FSaveDataExportTask(0) wrote 34418 bytes to memory
+[1021.12] Log: SaveGameDataAsync game thread time: 1 ms
+[1021.13] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088.save
+[1021.13] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1392870272]
+[1027.22] Loadout: PRI_TA_5 Roundhouse SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=270,CustomFinishID=270,TeamColorID=35),Title="XP",Products=(25,316,365,58,0,0,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))(TeamPaint=(TeamFinishID=270,CustomFinishID=270,Team=1,TeamColorID=33),Title="XP",Products=(25,316,365,58,0,0,0,270,0,0,0,0,270,0,1948,1903,2526,0,0))
+[1061.48] Achievements: IncrementStat 12 6
+[1061.52] DevOnline: Stored steam user stats.
+[1074.01] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_82 [Metrics/RecordMetrics]
+[1074.01] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_82 Message=PsyNetMessage_X_82
+[1074.12] Achievements: IncrementStat 69 18
+[1074.12] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_82 Response=PsyNetMessage_X_83 Latency=0.1110 
+[1074.13] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_82->PsyNetMessage_X_83 PsyTime=1525055661 [Metrics/RecordMetrics]
+[1074.15] DevOnline: Stored steam user stats.
+[1076.00] Achievements: IncrementStat 52 0
+[1076.00] Achievements: IncrementStat 51 0
+[1076.00] DevOnline: Stored steam user stats.
+[1076.00] DevOnline: Stored steam user stats.
+[1136.00] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_86 [Metrics/RecordMetrics]
+[1136.00] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_86 Message=PsyNetMessage_X_86
+[1136.24] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_86 Response=PsyNetMessage_X_87 Latency=0.2391 
+[1136.25] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_86->PsyNetMessage_X_87 PsyTime=1525055723 [Metrics/RecordMetrics]
+[1214.52] Log: UImpactEffectsComponent_TA::HandleCollision - HitComponent CarMeshComponent_TA_69 is NULL or not attached
+[1231.65] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1231.66] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[1234.52] ScriptWarning: ScriptWarning, Accessed None 'BodyAsset'
+	Car_TA TrainStation_Night_P.TheWorld:PersistentLevel.Car_TA_72
+	Function TAGame.Car_TA:OnDemolished:0133
+Script call stack:
+	Function TAGame.Car_TA:ReplicatedEvent
+	Function TAGame.Car_TA:OnDemolished
+
+[1234.52] ScriptWarning: ScriptWarning, Accessed None 'Ball'
+	CrowdSoundManager_TA TrainStation_Night_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2.CrowdSoundManager_TA_2
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish:0092
+Script call stack:
+	Function TAGame.Car_TA:ReplicatedEvent
+	Function TAGame.Car_TA:OnDemolished
+	Function TAGame.GameEvent_TA:OnReplicatedDemolish
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish
+
+[1270.59] Log: UImpactEffectsComponent_TA::HandleCollision - HitComponent CarMeshComponent_TA_75 is NULL or not attached
+[1283.79] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1283.79] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[1288.43] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1288.77] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_92 [Metrics/RecordMetrics]
+[1288.78] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_92 Message=PsyNetMessage_X_92
+[1288.96] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_92 Response=PsyNetMessage_X_93 Latency=0.1880 
+[1288.97] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_92->PsyNetMessage_X_93 PsyTime=1525055876 [Metrics/RecordMetrics]
+[1289.32] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1289.33] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[1293.78] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1294.29] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1294.29] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[1297.39] DevNet: Browse: MENU_Main_p?closed
+[1297.39] Log: Failed; returning to Entry
+[1297.39] OnlinePlayerStorage: PartitionStorageRequests ExhibitionMatchSettingsSave_TA Request.Data.Length=474 Request.Checksum=-1208587310 ManifestChecksum=-1208587310 bChecksumMatch=True
+[1297.39] OnlinePlayerStorage: HandleOnlineStorageCommit ExhibitionMatchSettingsSave_TA_0 ServerTick=1
+[1297.40] Log: LoadMap: MENU_Main_p?closed
+[1297.40] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[1297.43] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[1297.43] ScriptWarning: ScriptWarning, Accessed None 'Ball'
+	CrowdSoundManager_TA TrainStation_Night_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2.CrowdSoundManager_TA_2
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish:0092
+Script call stack:
+	Function TAGame.AIController_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.GameEvent_Team_TA:OnPlayerRemoved
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayerFromTeam
+	Function TAGame.GameEvent_Team_TA:RemovePlayerFromTeam
+	Function TAGame.GameEvent_Team_TA:CleanupPlayerCar
+	Function TAGame.Car_TA:Demolish
+	Function TAGame.Car_TA:OnDemolished
+	Function TAGame.GameEvent_TA:OnReplicatedDemolish
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish
+
+[1297.43] ScriptLog: SetUIState 
+[1297.43] ScriptLog: Script call stack:
+[1297.43] ScriptLog: 	Function TAGame.GFxHUD_Soccar_TA:Destroyed
+[1297.43] ScriptLog: 	Function TAGame.GFxHUD_TA:Destroyed
+[1297.43] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1297.43] ScriptWarning: ScriptWarning, Accessed None 'Ball'
+	CrowdSoundManager_TA TrainStation_Night_P.TheWorld:PersistentLevel.GameEvent_Soccar_TA_2.CrowdSoundManager_TA_2
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish:0092
+Script call stack:
+	Function TAGame.GameEvent_Soccar_TA:Destroyed
+	Function TAGame.GameEvent_Team_TA:Destroyed
+	Function TAGame.GameEvent_TA:Destroyed
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayer
+	Function TAGame.GameEvent_TA:RemovePlayer
+	Function TAGame.GameEvent_Team_TA:OnPlayerRemoved
+	Function TAGame.GameEvent_Soccar_TA:RemovePlayerFromTeam
+	Function TAGame.GameEvent_Team_TA:RemovePlayerFromTeam
+	Function TAGame.GameEvent_Team_TA:CleanupPlayerCar
+	Function TAGame.Car_TA:Demolish
+	Function TAGame.Car_TA:OnDemolished
+	Function TAGame.GameEvent_TA:OnReplicatedDemolish
+	Function TAGame.CrowdSoundManager_TA:HandleDemolish
+
+[1297.44] ScriptLog: SetUIState 
+[1297.44] ScriptLog: Script call stack:
+[1297.44] ScriptLog: 	Function TAGame.GFxEngine_TA:OnGameSessionEnded
+[1297.44] ScriptLog: 	Function ProjectX.GFxEngine_X:OnGameSessionEnded
+[1297.44] ScriptLog: 	Function TAGame.GFxShell_TA:HandleGameSessionEnded
+[1297.44] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1300.67] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[1300.74] Log: Game class is 'GameInfo_GFxMenu_TA'
+[1300.88] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.04.29-19.38.10
+[1300.89] Log: Bringing up level for play took: 0.145205
+[1301.11] DevOnline: Set rich presence to: Main Menu data: Menu
+[1301.11] ScriptLog: SetUIState MainMenu
+[1301.11] ScriptLog: Script call stack:
+[1301.11] ScriptLog: 	Function Engine.GameInfo:PostLogin
+[1301.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:GenericPlayerInitialization
+[1301.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:InitShell
+[1301.11] ScriptLog: 	Function TAGame.GameInfo_GFxMenu_TA:SetUIState
+[1301.11] ScriptLog: 	Function TAGame.GFxData_System_TA:SetUIState
+[1301.11] Log: ########### Finished loading level: 3.713627 seconds
+[1301.11] Log: Flushing async loaders.
+[1301.61] Log: Flushed async loaders.
+[1301.63] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_94 [Metrics/RecordMetrics]
+[1301.63] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_94 Message=PsyNetMessage_X_94
+[1301.73] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_95 [Population/UpdatePlayerPlaylist]
+[1301.73] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_95 Message=PsyNetMessage_X_95
+[1301.74] Log: Flushing async loaders.
+[1301.74] Log: Flushed async loaders.
+[1301.74] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[1302.46] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_94 Response=PsyNetMessage_X_96 Latency=0.8318 
+[1302.50] Warning: Warning, Failed to load 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu': Failed to find object 'SwfMovie GFX_PrivateMatchMenu.PrivateMatchMenu'
+[1302.77] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart PrivateMatchSettingsSave_TA 2
+[1302.77] OnlinePlayerStorage: (OnlineStorageMetadata_TA_0) OnlineStorageMetadata_TA::None:CommitStart ExhibitionMatchSettingsSave_TA 1
+[1302.77] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_97 [GameServer/GetGameServerPingList]
+[1302.77] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_97 Message=PsyNetMessage_X_97
+[1302.77] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_94->PsyNetMessage_X_96 PsyTime=1525055889 [Metrics/RecordMetrics]
+[1302.77] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_95 Response=PsyNetMessage_X_98 Latency=1.0394 
+[1302.83] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_95->PsyNetMessage_X_98 PsyTime=1525055890 [Population/UpdatePlayerPlaylist]
+[1302.92] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_97 Response=PsyNetMessage_X_99 Latency=0.1527 
+[1302.94] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_97->PsyNetMessage_X_99 PsyTime=1525055890 [GameServer/GetGameServerPingList]
+[1302.94] Log: Using Secure Websockets
+[1302.96] Log: Using Secure Websockets
+[1303.01] Log: Using Secure Websockets
+[1303.03] Log: Using Secure Websockets
+[1303.03] Log: Using Secure Websockets
+[1303.04] Log: Using Secure Websockets
+[1303.06] Log: Using Secure Websockets
+[1303.12] Log: Using Secure Websockets
+[1303.14] Log: Using Secure Websockets
+[1303.15] Log: Using Secure Websockets
+[1303.62] Log: FSaveDataExportTask(0) wrote 34420 bytes to memory
+[1303.62] Log: SaveGameDataAsync game thread time: 1 ms
+[1303.63] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_2.save
+[1303.63] Log: SaveDataExport(0): Finished - File:[(null)] Result:[15054592]
+[1305.50] Matchmaking: All Regions Pinged: USE (0.1167), EU (0.2109), USW (0.0694), ASC (0.2114), ASM (0.2180), JPN (0.1558), ME (0.3432), OCE (0.2027), SAF (0.4034), SAM (0.2339)
+[1311.83] DevOnline: Steam GameOverlayActivated: 1
+[1337.68] DevOnline: Steam GameOverlayActivated: 0
+[1345.98] Warning: Warning, Failed to load 'SwfMovie GFX_SettingsMenu.SettingsMenu': Failed to find object 'SwfMovie GFX_SettingsMenu.SettingsMenu'
+[1356.15] Log: FSaveDataExportTask(0) wrote 34420 bytes to memory
+[1356.15] Log: SaveGameDataAsync game thread time: 1 ms
+[1356.16] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198079539088_1.save
+[1356.16] Log: SaveDataExport(0): Finished - File:[(null)] Result:[15025024]
+[1362.44] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1362.46] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_100 [Metrics/RecordMetrics]
+[1362.46] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_100 Message=PsyNetMessage_X_100
+[1362.72] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_100 Response=PsyNetMessage_X_101 Latency=0.2532 
+[1362.72] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_100->PsyNetMessage_X_101 PsyTime=1525055950 [Metrics/RecordMetrics]
+[1365.68] Log: Closing by request
+[1365.68] Log: appRequestExit(0)
+[1365.80] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 HandleLoginStatusChanged
+[1365.80] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=False bPerConConnected=False
+[1365.80] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 LoggedOut
+[1365.80] PsyNet: Disabling PerCon
+[1365.80] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198079539088|0 UpdateLoginState
+[1365.80] Party: HandleLocalPlayerLoginStatusChanged PlayerName= PlayerID=Steam|76561198079539088|0 LoginStatus=LS_NotLoggedIn IsPrimary=True IsInParty=False
+[1365.81] Exit: Preparing to exit.
+[1365.92] Exit: Game engine shut down
+[1366.01] Exit: Windows client shut down
+[1366.02] Exit: XAudio2 Device shut down.
+[1366.03] Exit: AK Audio shut down.
+[1367.27] Exit: Object subsystem successfully closed.
+[1367.40] Exit: Exiting.
+[1367.40] Log: Log file closed, 29/04/2018 19:39:17
