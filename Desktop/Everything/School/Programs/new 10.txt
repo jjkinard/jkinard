@@ -1,0 +1,87 @@
+for (r = Qrow, r < nrow, r++){
+    for (c = Qcol, c < ncol, c+2){
+        if (board [c][r] != true){
+            System.out.print board [c][r];
+            if (c+2 > ncol){
+                Qcol = (c+1)%2;
+            }else{
+                Qcol += 2;
+            }
+            if (r+1 > nrow){
+                Qrow = (c+1)%2;
+            }else{
+                Qrow ++;
+            }
+            break;
+        }else{
+            break;
+        }
+    }
+    if (board[c][r] == true){
+        break;
+    }
+}
+
+class NQueens{
+
+    public static void main (String[] args){
+        if (args.length <2){
+            System.out.println("Usage: java -jar NQueens.jar <input file> <output file>");
+            System.exit(1);
+        }
+		Scanner sc = new Scanner (System.in);
+		int n = sc.nextInt();
+		    while(sc.hasNextInt() ){
+      // trim leading and trailing spaces, then add one trailing space so
+      // split works on blank lines
+      line = in.nextInt().trim() + " ";
+
+      // split line around white space
+      token = Int.split("\s+");
+
+      // print out tokens
+      n = token.length;
+      for(i=0; i<n; i++){
+        out.println(stringReverse(token[i],token[i].length()));
+      }
+    }
+
+        boolean [][] board = new boolean [n][n];
+        solve (board,1,n);
+    }
+
+    private static boolean solve(boolean[][] board, int Qcol, int n){
+        if (Qcol<=n){
+            System.out.println("No Solutions");
+        }else{
+            for(int Qrow=1; Qrow<n;Qrow++){
+                if (Attacks(board,Qrow,Qcol, n)){
+                    board[Qrow][Qcol]=true;
+                    solve (board, (Qcol+1), n );
+                    board[Qrow][Qcol] = false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private static boolean Attacks (boolean[][] board, int Qrow, int Qcol, int n){
+        for (int i=0; i<n; i++)
+            if (board [Qrow][i] && i != Qcol)
+                return false;
+        for (int i=0; i<n; i++)
+            if (board [i][Qcol] && i!= Qrow)
+                return false;
+        for (int i=0; i<n; i++){
+            for (int j=0; j<n; j++){
+                if (i==Qrow && j==Qcol)
+                    continue;
+                if (board[i][j]){
+                    if (Qrow-i == Qcol-j || i-Qrow == Qcol-j)
+                        return false;
+                }
+            }
+        }
+        return true;
+    }
+}

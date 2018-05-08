@@ -1,0 +1,31 @@
+17:15:11 [Debug] [SurveyControllerTask.Run methond] ENTERING
+17:15:14 [Debug] [null] Successfully logged ApplicationStarted event; Response received in 366ms
+17:15:14 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] ENTERING: RecordPlatinumtEvent
+17:15:14 [Error] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] RecordPlatinumtEvent exception
+17:15:14 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] EXITING: RecordPlatinumtEvent
+17:15:14 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Starting...
+17:15:14 [Debug] [SurveyControllerTask.CheckForSurvey] ENTERING
+17:15:14 [Information] [null] string to hash is: 2018-04-16 00:15:14.770,PUT,https://otbs.azurewebsites.net/api/RegisterSystem
+17:15:14 [Information] [null] computed hash: TSMbfrcMRPPyRlQ3LdYH/as4khLHjAey/kG8rVk5CwA=
+17:15:15 [Information] [null] Response received: OK for web request RegisterSystem
+17:15:15 [Information] [null] Response received in 278ms for web request RegisterSystem
+17:15:15 [Information] [null] RegisterSystem successfully registered system to web service.
+17:15:15 [Debug] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval method] ENTERING
+17:15:15 [Information] [null] string to hash is: 2018-04-16 00:15:15.138,GET,https://otbs.azurewebsites.net/api/AppConfig?serviceTag=G8XBYL2&appVersion=5.2.13.0
+17:15:15 [Information] [null] computed hash: SmcthDEmsrbc09qtKdSqjuR0WLFFhDnDyXM1XQAVSWE=
+17:15:15 [Information] [null] Response received: OK for web request AppConfig
+17:15:15 [Information] [null] Response received in 95ms for web request AppConfig
+17:15:15 [Information] [null] Successfully requested AppConfig from web service.
+17:15:15 [Information] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval] Setting check interval to: 4320
+17:15:15 [Debug] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval method] LEAVING
+17:15:15 [Information] [null] string to hash is: 2018-04-16 00:15:15.270,GET,https://otbs.azurewebsites.net/api/SurveyRequest?serviceTag=G8XBYL2&appVersion=5.2.13.0&osLanguage=en-US&osVersion=10.0.15063
+17:15:15 [Information] [null] computed hash: /blAxG2XVbYsQBtrXwt3xn1j1T3eS5KLiOd2mtC/6NI=
+17:15:15 [Information] [null] Response received: NoContent for web request SurveyRequest
+17:15:15 [Information] [null] Response received in 81ms for web request SurveyRequest
+17:15:15 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Setting SurveyControllerTask delay to: 4320 minutes
+17:15:15 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Unregistering SurveyControllerTask
+17:15:15 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask about to register
+17:15:15 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask registered
+17:15:15 [Debug] [SurveyControllerTask.CheckForSurvey] LEAVING
+17:15:15 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Stopping...
+17:15:15 [Debug] [SurveyControllerTask.Run method] LEAVING

@@ -1,0 +1,176 @@
+var game = new Phaser.Game(800, 900, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+function preload() {
+	// preload assets
+	//loads the sky asset
+	game.load.image('sky','assets/sky.png');
+	//loads the ground asset
+	game.load.image('ground','assets/platform.png');
+	//loads the star asset
+	game.load.image('star','assets/star.png');
+	//loads the diamond asset
+	game.load.image('diamond','assets/diamond.png');
+	//load the dude asset
+	game.load.spritesheet('dude','assets/baddie.png',32,32);
+	//create 
+}
+
+//sets up the universal platforms
+var platforms;
+//sets up the universal score other fcns may use
+var score = 0;
+//sets up the scoreText
+var scoreText;
+
+function create() {
+	//*********************************************************************************************************************************
+    //Enable the Arcade Physics system
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+	
+	//*********************************************************************************************************************************
+    //Adds a background
+	game.add.sprite(0, 0, 'sky');
+    game.add.sprite(0, 250, 'sky');
+	//*********************************************************************************************************************************
+    //Creates the group of platforms
+    platforms = game.add.group();
+
+    //Physics on for platforms in group
+    platforms.enableBody = true;
+	//*********************************************************************************************************************************
+    // ground created
+    var ground = platforms.create(0, game.world.height - 64, 'ground');
+
+    // scale ground to width of game
+    ground.scale.setTo(2, 2);
+
+    // ground cant move
+    ground.body.immovable = true;
+	//*********************************************************************************************************************************
+    //  Create ledges
+    var ledge = platforms.create(400, 475, 'ground');
+	//ledge immovable
+    ledge.body.immovable = true;
+	
+    ledge = platforms.create(-150, 300, 'ground');
+
+    ledge.body.immovable = true;
+
+	ledge = platforms.create(650,100,'ground');
+	
+	ledge.body.immovable = true;
+	
+	ledge = platforms.create(500,205,'ground');
+	
+	ledge.body.immovable=true;
+	
+	ledge = platforms.create(-250,100,'ground');
+	
+	ledge.body.immovable=true;
+	
+	ledge = platforms.create(-225,650,'ground');
+	
+	ledge.body.immovable=true;
+	//*********************************************************************************************************************************	
+	//Creates Player
+    player = game.add.sprite(32, game.world.height - 150, 'dude');
+
+    //Enables physics on character
+    game.physics.arcade.enable(player);
+
+    //Physics character bounces when it collides
+    player.body.bounce.y = 0.2;
+    player.body.gravity.y = 300;
+    player.body.collideWorldBounds = true;
+
+    // walk left walk right & animations
+    player.animations.add('left', [0, 1], 5, true);
+    player.animations.add('right', [2, 3], 5, true);
+	//*********************************************************************************************************************************	
+	//Stars group created
+	stars = game.add.group();
+	//Physics for Stars
+    stars.enableBody = true;
+
+    //12 stars spaced out
+    for (var i = 0; i < 12; i++)
+    {
+        //Creates star
+        var star = stars.create(i * 70, 0, 'star');
+
+        //Star Gravity
+        star.body.gravity.y = 6;
+
+        //random bounce
+        star.body.bounce.y = 0.7 + Math.random() * 0.2;
+    }
+	//*********************************************************************************************************************************
+	diamond = game.add.group();
+	diamond.enableBody = true;
+	diamond = diamond.create(Math.random()*700,Math.random()*700, 'diamond');
+	//scores for gathering stars
+	scoreText = game.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
+}
+
+function update() {
+	// run game loop
+	//  Collide the player and the stars with the platforms
+    var hitPlatform = game.physics.arcade.collide(player, platforms);
+	
+	cursors = game.input.keyboard.createCursorKeys();
+	
+	//  Reset the players velocity (movement)
+    player.body.velocity.x = 0;
+
+    if (cursors.left.isDown)
+    {
+        //  Move to the left
+        player.body.velocity.x = -150;
+
+        player.animations.play('left');
+    }
+    else if (cursors.right.isDown)
+    {
+        //  Move to the right
+        player.body.velocity.x = 150;
+
+        player.animations.play('right');
+    }
+    else
+    {
+        //  Stand still
+        player.animations.stop();
+
+//        player.frame = 4;
+    }
+
+    //  Allow the player to jump if they are touching the ground.
+    if (cursors.up.isDown && player.body.touching.down && hitPlatform)
+    {
+        player.body.velocity.y = -350;
+    }
+	
+	game.physics.arcade.collide(stars, platforms);
+	
+	game.physics.arcade.overlap(player, stars, collectStar, null, this);
+	game.physics.arcade.overlap(player, diamond, collectDiamond, null, this);
+
+}
+
+function collectStar (player, star) {
+
+    // Removes the star from the screen
+    star.kill();
+	
+	//  Add and update the score
+    score += 10;
+    //scoreText.text = 'Score: ' + score;
+	scoreText.text = 'score: ' + score;
+}
+
+function collectDiamond (player,diamond){
+	
+	diamond.kill();
+	score += 25;
+	scoreText.text = 'score: ' + score;
+}

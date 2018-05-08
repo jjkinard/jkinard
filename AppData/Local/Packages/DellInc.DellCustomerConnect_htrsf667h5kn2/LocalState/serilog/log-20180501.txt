@@ -1,0 +1,9 @@
+13:53:04 [Debug] [SurveyControllerTask.Run methond] ENTERING
+13:53:30 [Debug] [null] Successfully logged ApplicationStarted event; Response received in 8241ms
+13:53:30 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] ENTERING: RecordPlatinumtEvent
+13:53:30 [Error] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] RecordPlatinumtEvent exception
+13:53:30 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] EXITING: RecordPlatinumtEvent
+13:53:30 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Starting...
+13:53:30 [Debug] [SurveyControllerTask.CheckForSurvey] ENTERING
+13:53:30 [Information] [null] string to hash is: 2018-05-01 20:53:30.322,PUT,https://otbs.azurewebsites.net/api/RegisterSystem
+13:53:30 [Information] [null] computed hash: WdoZxqZyJj4jWdr4mBQ/UGTsa95Vv1fZc88QKegUe/g=

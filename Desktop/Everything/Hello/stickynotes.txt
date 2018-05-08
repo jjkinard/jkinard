@@ -1,0 +1,10 @@
+http://sfbay.craigslist.org/scz/sop/5969199084.html
+
+http://sfbay.craigslist.org/scz/vgm/5970813525.html
+http://sfbay.craigslist.org/eby/cto/5917078534.html
+
+https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C1CHZL_enUS700US700&ion=1&espv=2&ie=UTF-8#q=2006+dodge+stratus+engine+2.4%C2%A0l+4-cylinder+(sxt)&stick=H4sIAAAAAAAAAONgFuLRT9c3NCqLTy4pMrDUMspOttJPLC3Jz80vySxL1c_NT0nNia9MTSyySs1Lz8xLjS8uzc1NLKqML88syYhPTiwqfsRYyC3w8sc9YamMSWtOXmNM4iLDECEdLjbXvJLMkkohJS4BKRRHaTBI8XGhiPAAAGmlTGK4AAAA
+http://www.khmerfan.com/PDF/Learning%20Processing.pdf
+
+http://courses.cs.washington.edu/courses/cse190x/13au/resources/drawing_in_processing.pdf
+setup() is used to set your app's properties such as size, background color, and framerate. by not putting anything it would set everything to it's default

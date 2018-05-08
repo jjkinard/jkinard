@@ -1,0 +1,80 @@
+import java.util.Scanner;
+
+class Roots{
+  public static void main(String[] args){
+    double resolution = Math.pow(10, -2);
+    double tolerance = Math.pow(10, -7);
+    double threshold = Math.pow (10, -3);
+    double L, R, Z, K;
+    int n;
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter the degree: ");
+    n = sc.nextInt();
+
+    System.out.print("Enter " + (n+1) + " coefficients: ");
+    double[] list = new double[n+1];
+    for (int i = 0; i<list.length; i++){
+      list[i] = sc.nextDouble();
+    }
+    Z = poly(list, n);                                                           //calls poly function
+    double[] D = diff(list);                                                     //calls diff function
+
+    System.out.println("Enter the left and right endpoints: ");
+    L = sc.nextDouble();
+    R = sc.nextDouble();
+    System.out.println();
+
+    K =  findRoot(list, L, R, tolerance);                                 //calls findRoot
+  }                                                                              //end of main
+
+  static double poly(double[] C, double x){                                      //Poly function
+    double sum = 0;
+    for (double i: C){
+      sum+=i;
+    }
+    return sum;
+  }
+
+   static double[] diff(double[] C){                                             //diff function
+    double[] D;
+    D = C;
+    for (int i = 0; i<C.length; i++){
+      D[i] = C[i] * C.length-i-1;
+    }
+    return D;
+  }
+
+  static double findRoot(double[] C, double a, double b, double tolerance){      //findRoot function
+    double val = 0.0;
+    if(b-a==0){
+      System.out.println("No roots were found in the specified range.");
+    }
+    else{
+      double root = 0.0, width;
+      width = b-a;
+      while(width > tolerance){
+        root = (a+b)/2.0;
+        if( func(C,a)*func(C,root)<0){                                           //calls func
+          b = root;
+          System.out.printf("Root found at " + "%.5f%n", root);
+        }
+        else{
+          a = root;
+          System.out.printf("Root found at " + "%.5f%n", root);
+        }
+        width = b-a;
+        return root;
+      }
+      return root;
+    }
+    return val;
+  }
+
+  static double func(double[] C, double x){
+    for(int i = 0; i<C.length; i++){
+      return (x*x-C[i]);
+    }
+  return x;
+  }
+}

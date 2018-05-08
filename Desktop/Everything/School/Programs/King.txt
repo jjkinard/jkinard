@@ -1,0 +1,26 @@
+public class King extends ChessPiece{
+	public King (int col, int row, boolean color, char type) {
+        super(col, row, color, type);
+    }
+	public boolean isAttacking (ChessPiece c) {
+		//checks if another piece is within 1 square
+		if (col == c.col && c.row - row == 1)
+			return true;
+		else if (c.col - col == 1 && c.row - row == 1)
+			return true;
+		else if (col - c.col == 1 && c.row - row == 1)
+			return true;
+		else if (col - c.col == 1 && row == c.row)
+			return true;			
+		else if (c.col - col == 1 && row == c.row)
+			return true;
+		else if (col == c.col && row - c.row == 1)
+			return true;			
+		else if (c.col - col == 1 && row - c.row == 1)
+			return true;
+		else if (col - c.col == 1 && row - c.row == 1)
+			return true;
+		else
+			return false;
+	}
+}

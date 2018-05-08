@@ -1,0 +1,152 @@
+Scanner sc=new Scanner();
+
+public static void main(String[] args){
+	NQueens Q=new NQueens();
+	String[] Queen=q.flipLines(new Scanner(System.in));
+	int n=Integer.parseInt(Queen[0];
+	enumerate9n0;
+	}
+	
+public String[] Sc(Scanner s){
+	String[] number=null;
+	try{
+		s=new Scanner(new File("in.txt"));
+		while(c.hasNextLine()){
+			String col = s.nextLine();
+			Scanner colSc = new Scanner(line);
+			number = col.split(" ");
+			
+			}
+		}	catch (FileNotFoundException ex){
+		System.out.println("This file does not exist");
+	}
+	return numbers;
+}
+
+public static boolean Checker(int[] q, int n){
+	for (int i=0; i<n; i++){
+		if (q[i]== q[n]) return false;
+		if ((q[i] - q[n]) == (n-i)) return false;
+		if ((q[n] - q[i]) == (n-i)) return false;
+		}
+	return true;
+}
+
+public static void print (int [] q){
+	int n = q.length;
+	for(int i=0; i<n; i++){
+		for (int j=0; j<n; j++){
+			if (q[i] ==j) System.out.print(i+ " " +j);
+		}
+		System.out.println();
+	}
+	System.out.println();
+}
+
+public static void num(int n){
+	int[] a = new int[n];
+	num(a,0);
+}
+
+public static void num(int[]q, int k){
+	int n= q.length;
+	if (k==n) print(q);
+	else{
+		for (int i=0l i<n; i++){
+			q[k] = i;
+			if (Checker(q,k)) num(q, k+1);
+		}
+	}
+}
+
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class NQueens {
+
+  
+  
+  
+   StringBuilder sb=new StringBuilder();
+     public String[] flipLines(Scanner s){
+  
+       String[] numbers=null;
+         try
+         {
+    s = new Scanner(new File("in.txt"));
+    while(s.hasNextLine()){
+    String line = s.nextLine();
+    System.out.println(line);
+    Scanner lineScanner = new Scanner(line);
+  
+    numbers = line.split(" ");
+  
+    }
+  
+    //exceptions
+    } catch (FileNotFoundException ex){
+    System.out.println("This file does not exist");
+    }
+         return numbers;
+    }
+  
+  
+  
+
+  
+  
+  
+        public static boolean isConsistent(int[] q, int n) {
+            for (int i = 0; i < n; i++) {
+                if (q[i] == q[n])             return false;   // same column
+                if ((q[i] - q[n]) == (n - i)) return false;   // same major diagonal
+                if ((q[n] - q[i]) == (n - i)) return false;   // same minor diagonal
+            }
+            return true;
+        }
+
+
+        public static void printQueens(int[] q) {
+            int n = q.length;
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (q[i] == j) System.out.print(i+ " " +j); 
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+
+
+        public static void enumerate(int n) {
+            int[] a = new int[n];
+            enumerate(a, 0);
+        }
+
+        public static void enumerate(int[] q, int k) {
+            int n = q.length;
+            if (k == n) printQueens(q);
+            else {
+                for (int i = 0; i < n; i++) {
+                    q[k] = i;
+                    if (isConsistent(q, k)) enumerate(q, k+1);
+                }
+            }
+        }
+
+
+        public static void main(String[] args) {
+        
+          
+           NQueens q=new NQueens();
+           String[] sarray=q.flipLines(new Scanner(System.in));
+          
+        //   Scanner sc=new Scanner(System.in);
+           int n=Integer.parseInt(sarray[0]);
+       
+            enumerate(n);
+        }
+
+   }

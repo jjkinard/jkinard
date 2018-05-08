@@ -1,0 +1,125 @@
+	static void calcA(String[] A){
+		if (A.length == 1){
+			try{
+				n = Integer.parseInt(A[0]);
+			}catch (NumberFormatException e){
+				Error();
+			}
+		}else if(A.length == 2){
+			if (A[0].equals("-v")){
+				v = true;
+				try{
+					n = Integer.parseInt(A[1]);
+				}catch (NumberFormatException e){
+					Error();
+				}
+			}else{
+				Error();
+			}
+		}else{
+			Error();
+		}
+	}
+	
+	
+//nextPermutation
+public void nextPermutation(int[] nums) {
+    if(nums == null || nums.length<2)
+        return;
+ 
+    int p=0;            
+    for(int i=nums.length-2; i>=0; i--){
+        if(nums[i]<nums[i+1]){
+            p=i;
+            break;
+        }    
+    }
+ 
+    int q = 0;
+    for(int i=nums.length-1; i>p; i--){
+        if(nums[i]> nums[p]){
+            q=i;
+            break;
+        }    
+    }
+ 
+    if(p==0 && q==0){
+        reverse(nums, 0, nums.length-1);
+        return;
+    }
+ 
+    int temp=nums[p];
+    nums[p]=nums[q];
+    nums[q]=temp;
+ 
+    if(p<nums.length-1){
+        reverse(nums, p+1, nums.length-1);
+    }
+}
+//another variation of next Permutation
+	static void nextPermutation (int[] A){
+		boolean PivotLocation = false;
+		int x = 0;
+		int successor = 0;
+		for (int i = A.length-2; i > 0; i--){
+			if (A[i]<A[i+1]){
+				x = i;
+				PivotLocation = true;
+				break;
+			}
+		}
+		if(PivotLocation == false){	
+			backwards(A, 1);
+			return;
+		}
+		
+		for (int j = A.length-1; j > 0; j--){
+			if (A[j] > A[x]){
+				successor = j;
+				break;
+			}
+		}
+
+// Backwards now reverse
+	static void backwards(int[] a, int b){
+		int c = a.length - 1;
+		while(b<c)
+		{
+			swap(a, b, c);
+			c--;
+			b++;
+		}
+		
+	}
+
+
+ //Reverse (now Swap)
+public void reverse(int[] nums, int left, int right){
+    while(left<right){
+        int temp = nums[left];
+        nums[left]=nums[right];
+        nums[right]=temp;
+        left++;
+        right--;
+    }
+}
+
+//isSolution
+    static boolean isSolution(int[] A) {
+        int n;
+		for (int i = 0; i < n; i++) {
+            if (A[i] == A[n])             return false;   // same column
+            if ((A[i] - A[n]) == (n - i)) return false;   // same major diagonal
+            if ((A[n] - A[i]) == (n - i)) return false;   // same minor diagonal
+        }
+        return true;
+    }
+	
+	//factorial
+		static int factorial(int n){
+		int product = 1;
+		for(int i=1; i<=n; i++){
+			product = product * i;
+		}
+		return product;		
+	}	

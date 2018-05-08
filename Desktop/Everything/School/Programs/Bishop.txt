@@ -1,0 +1,17 @@
+public class Bishop extends ChessPiece{
+	public Bishop (int col, int row, boolean color, char type) {
+        super(col, row, color, type);
+    }
+	public boolean isAttacking (ChessPiece c) {
+		if ((col - c.col) - (row - c.row) == 0){
+            return true;
+		}else if ((c.col - col) - (row - c.row) == 0){
+            return true;
+		}else if ((col - c.col) - (c.row - row) == 0){
+			return true;
+		}else if ((c.col - col) - (c.row - row) == 0){
+            return true;
+			}
+				return false;
+	}
+}

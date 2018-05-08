@@ -1,0 +1,122 @@
+
+=============================================================================================my code 5
+ Node N;
+   if( D==NULL || D->numPairs ==0){
+      fprintf(stderr, 
+         "Dictionary Error: calling delete() when INVALID \n");
+      exit(EXIT_FAILURE);
+   }
+ N=findKey(D->root[hash(k)],k);
+   if (N==NULL){
+		fprintf(stderr,
+			"Dictionary Error: calling delete() when INVALID \n");
+		exit(EXIT_FAILURE);
+	}
+if (strcmp(D->root[hash(k)]->key, k)!=0){
+	while(strcmp(D->root[hash(k)]->left->key,k)){
+		D->root[hash(k)]=D->root[hash(k)]->left;
+	}
+	D->root[hash(k)]->left=D->root[hash(k)]->left->left;
+}else{
+	D->root[hash(k)]=D->root[hash(k)]->left;
+}
+	N->left=NULL;
+	freeNode(&N);
+	D->numPairs--;
+	================================================= my code 4
+ void delete(Dictionary D, char* k){
+   Node N;
+   //All errors that come up
+   if( D==NULL || D->numPairs ==0){
+      fprintf(stderr, 
+         "Dictionary Error: calling delete() when INVALID \n");
+      exit(EXIT_FAILURE);
+   }
+   N = findKey(D->root[hash(k)], k);
+   if (N==NULL){
+		fprintf(stderr,
+			"Dictionary Error: calling delete() when INVALID \n");
+		exit(EXIT_FAILURE);
+	}
+	//Once all errors are done
+	if (N==D->root[hash(k)]){
+		D->root[hash(k)]=D->root[hash(k)]->left;
+		D->root[hash(k)]=NULL;
+	}else{
+		while(D->root[hash(k)]->left != N){
+			D->root[hash(k)]->left=D->root[hash(k)]->left->left;
+			D->root[hash(k)]=D->root[hash(k)]->left;
+		}
+	D->root[hash(k)]->left=N->left;
+	}
+	//sets next to NULL, free's the Node, and reduces quantity by 1
+	N->left=NULL;
+	freeNode(&N);
+	D->numPairs--;
+}
+ ============================================================================================my code 3
+    Node N;
+   //All errors that come up
+   if( D==NULL || D->numPairs ==0){
+      fprintf(stderr, 
+         "Dictionary Error: calling delete() when INVALID \n");
+      exit(EXIT_FAILURE);
+   }
+   N = findKey(D->root[hash(k)], k);
+   if (N==NULL){
+		fprintf(stderr,
+			"Dictionary Error: calling delete() when INVALID \n");
+		exit(EXIT_FAILURE);
+	}
+	//Once all errors are done
+	if (N==D->root[hash(k)]){
+		D->root[hash(k)]=D->root[hash(k)]->left;
+		D->root[hash(k)]=NULL;
+	}else{
+		while(D->root[hash(k)]->left != N){
+			D->root[hash(k)]->left=D->root[hash(k)]->left->left;
+			D->root[hash(k)]=D->root[hash(k)]->left;
+		}
+	D->root[hash(k)]->left=N->left;
+	}
+	//sets next to NULL, free's the Node, and reduces quantity by 1
+	N->left=NULL;
+	freeNode(&N);
+	D->numPairs--;
+=============================================================================================my code 1
+	if(N->left==NULL && N==D->root[hash(k)]){
+		N=NULL;
+	}else if(N==D->root[hash(k)]){
+		D->root[hash(k)]=N->left;
+		N=NULL;
+	}else{
+		P=D->root[hash(k)];
+		while(P->left!=N){
+			P=P->left;
+		}
+		P->left=N->left;
+	}
+   freeNode(&N);
+   D->numPairs--;
+}
+
+====================================================================================My code 2
+	if (N==D->root[hash(k)]){
+		//sets pointer to be equal to pointer next
+		D->root[hash(k)]=D->root[hash(k)]->left;
+		//pointer is now NULL
+		D->root[hash(k)]=NULL;
+	}else{
+		//While point next is not equal to pointer
+		while(D->root[hash(k)]->left != N){
+			//set pointer next to be equal to point next next
+			D->root[hash(k)]->left=D->root[hash(k)]->next->next;
+			//sets pointer to be equal to point next
+			D->root[hash(k)]=D->root[hash(k)]->left;
+		}
+	D->root[hash(k)]->left=N->next;
+	}
+	//All pointer next is NULL, freed, and numPairs goes down
+	N->left=NULL;
+	freeNode(&N);
+	D->numPairs--;

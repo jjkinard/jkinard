@@ -1,0 +1,59 @@
+import java.util.Scanner;
+import java.util.Random;
+
+class Guess{
+
+   public static void main( String[] args ){
+      
+	  Random rand = new Random();
+	  double answer = (int) rand.nextInt(10)+1; //double answer = math.floor(math.random()*10);
+	  Scanner sc = new Scanner(System.in);
+	  double guess;
+	  
+	  //begin the game
+	  System.out.println();
+	  System.out.println("I'm thinking of an integer in the rane 1 to 10.  You have three guesses.");
+	  System.out.println();
+	  
+	  //First guess
+	  System.out.print("Enter your first guess: ");
+	  guess = sc.nextDouble();
+	  
+	  if (guess == answer){
+	  System.out.println("You win!");
+	  return;
+	  }
+	  else if(guess > answer){
+	  System.out.println("Your guess is too high.");
+	  }
+	  else if (guess < answer){
+	  System.out.println("Your guess is too low.);
+	     }
+	  
+	  //Second guess
+	  System.out.print("Enter your first guess: ");
+	  guess = sc.nextDouble();
+	  
+	  if (guess == answer){
+	  System.out.println("You win!");
+	  return;
+	  }
+	  else if(guess > answer){
+	  System.out.println("Your guess is too high.");
+	  }
+	  else if (guess < answer){
+	  System.out.println("Your guess is too low.);
+	  }
+	  
+	  //Third guess
+	  System.out.print("Enter your first guess: ");
+	  guess = sc.nextDouble();
+	  
+	  if (guess == answer){
+	  System.out.println("You win!");
+	  }
+	  else {
+	  System.out.println("You lose.");
+	       }
+	    }
+	 }

@@ -1,0 +1,51 @@
+import java.util.*;
+import java.util.Scanner;
+import java.io.*;
+
+class NQueens{
+	public static void main (String[] args){
+		if (args.length <2){
+			System.out.println("Usafe: java -jar NQueens.jar <input file> <output file>");
+			System.exit(1);
+		}
+
+		Scanner in = new Scanner (System.in);
+		int n = in.newDouble();
+		boolean [][] board = new boolean [n][n];
+		solve (board,1,n);
+	}
+
+	private static void solve(boolean[][] board, int Qcol,int n){
+		if (Qcol<=n){
+			System.out.println("No Solutions");
+		}else{
+			for(int Qrow=1; Qrow<n;Qrow++){
+				if (placement(board,Qrow,Qcol)){
+					boar[Qrow][Qcol]=true;
+					solve (board, Qcol+1);
+					board[Qrow][Qcol] = false;
+				}
+			}
+		}
+	}
+
+	private static void placement (boolean[][] board, int Qrow, int Qcol){
+		for (int i=0; i<n; i++)
+			if (board [Qrow][i] && i != Qcol)
+				return false;
+		for (int i=0; i<n; i++)
+			if (board [i][Qcol] && i!= Qrow)
+				return false;
+		for (int i=0; i<n; i++){
+			for (int j=0; j<n; j++){
+				if (i==Qrow && j==Qcol)
+					continue;
+				if (board[i][j]){
+					if (Qrow-i == Qcol-j || i-Qrow == Qcol-j)
+						return false;
+				}
+			}
+		}
+		return true;
+	}
+}

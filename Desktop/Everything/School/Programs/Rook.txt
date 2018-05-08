@@ -1,0 +1,11 @@
+public class Rook extends ChessPiece{
+	public Rook (int col, int row, boolean color, char type) {
+        super(col, row, color, type);
+    }
+	public boolean isAttacking (ChessPiece c) {
+        if (col == c.col || row == c.row){ 
+            return true;
+		}
+		return false;
+	}
+}

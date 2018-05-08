@@ -1,0 +1,5 @@
+11:55:10 PM 1/8/2018:
+
+Orientation sensor does not exist
+
+-------------------------------

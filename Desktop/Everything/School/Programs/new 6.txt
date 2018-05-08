@@ -1,0 +1,6 @@
+// Jordan Kinard
+//UCSC CMPS12B
+//Files Submitted:
+//NQueens.java
+//Makefile
+//README

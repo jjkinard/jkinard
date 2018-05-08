@@ -1,0 +1,341 @@
+//Jordan Kinard
+//12B/M
+//1401371
+//jkinard
+//PA5
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#include "Dictionary.h"
+
+const int tableSize=101; // or some prime other than 101
+
+//----------------------------------------------------------------------------------------
+//Notes
+//All code referenced from Tantalo's lecture on Dictionary.c used in Lab7, Right was removed & left acts as what would be "next"
+//As of 3/8/18 MakeEmpty applies the error even though it goes through
+//As of 3/9/18 Segmentation fault is occurring
+//As of 3/9/18 Commented out the error, which resolved error popping up, and seemed to now fix the segmentation fault
+//As of 3/11/18 Delete function does not work, all other functions work. This could be a product of not actually getting rid of the reference
+//As of 3/13/18 Delete function now works utilizing the ->next and setting pointer to NULL
+//Comments added specifying certain fcns, and citing the source
+//As of 3/14/18 Delete fcn is not currently working in script   
+
+//===========================HASH=================================================================
+//All hash fcns given in assignment PDF
+// rotate_left()
+// rotate the bits in an unsigned int
+unsigned int rotate_left(unsigned int value, int shift) {
+ int sizeInBits = 8*sizeof(unsigned int);
+ shift = shift & (sizeInBits - 1);
+ if ( shift == 0 )
+ return value;
+ return (value << shift) | (value >> (sizeInBits - shift));
+}
+
+//----------------------------------------------------------------------------------------
+
+// pre_hash()
+// turn a string into an unsigned int
+unsigned int pre_hash(char* input) {
+ unsigned int result = 0xBAE86554;
+ while (*input) {
+ result ^= *input++;
+ result = rotate_left(result, 5);
+ }
+ return result;
+}
+
+//----------------------------------------------------------------------------------------
+
+// hash()
+// turns a string into an int in the range 0 to tableSize-1
+int hash(char* key){
+ return pre_hash(key)%tableSize;
+}
+
+//----------------------------------------------------------------------------------------
+//======================================================================================================
+
+
+
+
+//=================================NODES======================================================
+//anything at this point has been taken from /cmps012b/Winter18/Examples/Lecture/C_Programs/DictionaryADT/Dictionary.c
+// NodeObj
+typedef struct NodeObj{
+   char* key;
+   char* value;
+   struct NodeObj* left;
+} NodeObj;
+
+// Node
+typedef NodeObj* Node;
+
+//----------------------------------------------------------------------------------------
+
+// newNode()
+// constructor for private Node type
+Node newNode(char* k, char* v) {
+   Node N = malloc(sizeof(NodeObj));
+   assert(N!=NULL);
+   N->key = k;
+   N->value = v;
+   N->left = NULL;
+   return(N);
+}
+
+//----------------------------------------------------------------------------------------
+
+// freeNode()
+// destructor for private Node type
+void freeNode(Node* pN){
+   if( pN!=NULL && *pN!=NULL ){
+      free(*pN);
+      *pN = NULL;
+   }
+}
+
+//--------------------------------------------------------------------------------------
+//===============================================================================================================
+
+
+
+//=====================DICTIONARY================================================================================
+// DictionaryObj
+typedef struct DictionaryObj{
+   Node* root;
+   int numPairs;
+} DictionaryObj;
+
+//----------------------------------------------------------------------------------------
+
+// findKey()
+// returns the Node containing key k in the subtree rooted at R, or returns
+// NULL if no such Node exists
+Node findKey(Node R, char* k){
+	//Reference Code from Lecture/C_Programs/DictionaryADT/Dictionary
+	//   if(R==NULL || strcmp(k, R->key)==0) 
+	//return R;
+	//if( strcmp(k, R->key)<0 ) 
+    //  return findKey(R->left, k);
+	//else // strcmp(k, R->key)>0
+    //  return findKey(R->right, k);	
+	//combined <0 & >0 so it'll keep looking at next until it finally reaches the first if
+
+	if(R==NULL||strcmp(R->key, k)==0)
+		return R;
+	else
+		return findKey(R->left, k);
+}
+
+//----------------------------------------------------------------------------------------
+
+// deleteAll()
+// deletes all Nodes in the subtree rooted at N.
+//Fcn taken from the example removed N->right as that is not a variable in the program
+void deleteAll(Node N){
+   if( N!=NULL ){
+      deleteAll(N->left);
+      freeNode(&N);
+   }
+}
+
+//----------------------------------------------------------------------------------------
+
+// public functions -----------------------------------------------------------
+
+// newDictionary()
+// constructor for the Dictionary type
+Dictionary newDictionary(){
+   Dictionary D = malloc(sizeof(DictionaryObj));
+   assert(D!=NULL);
+   D->root = calloc(tableSize,sizeof(NodeObj)); //or Node or NodeObj or Node*
+   D->numPairs = 0;
+   return D;
+}
+
+//----------------------------------------------------------------------------------------
+
+// freeDictionary()
+// destructor for the Dictionary type
+void freeDictionary(Dictionary* pD){
+   if( pD!=NULL && *pD!=NULL ){
+      makeEmpty(*pD);
+      free(*pD);
+      *pD = NULL;
+   }
+}
+
+//----------------------------------------------------------------------------------------
+
+// isEmpty()
+// returns 1 (true) if D is empty, 0 (false) otherwise
+// pre: none
+int isEmpty(Dictionary D){
+   if( D==NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: calling isEmpty() on NULL Dictionary reference\n");
+      exit(EXIT_FAILURE);
+   }
+   return(D->numPairs==0);
+}
+
+//----------------------------------------------------------------------------------------
+
+// size()
+// returns the number of (key, value) pairs in D
+// pre: none
+int size(Dictionary D){
+   if( D==NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: calling size() on NULL Dictionary reference\n");
+      exit(EXIT_FAILURE);
+   }
+   return(D->numPairs);
+}
+
+//----------------------------------------------------------------------------------------
+
+// lookup()
+// returns the value v such that (k, v) is in D, or returns NULL if no 
+// such value v exists.
+// pre: none
+//Dictionary ADT
+char* lookup(Dictionary D, char* k){
+   Node N;
+   if( D==NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: calling lookup() on NULL Dictionary reference\n");
+      exit(EXIT_FAILURE);
+   }
+   N = findKey(D->root[hash(k)], k);
+   return ( N==NULL ? NULL : N->value );
+}
+
+//----------------------------------------------------------------------------------------
+
+// insert()
+// inserts new (key,value) pair into D
+// pre: lookup(D, k)==NULL
+//From Dictionary ADT
+void insert(Dictionary D, char* k, char* v){
+   Node N;
+   //Errors
+   if( D==NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: calling insert() on NULL Dictionary reference\n");
+      exit(EXIT_FAILURE);
+   }
+   if( findKey(D->root[hash(k)],k)!=NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: cannot insert() duplicate key: \"%s\"\n", k);
+      exit(EXIT_FAILURE);
+   }
+   N = newNode(k,v);
+   // Reference Code:
+   //   if( B==NULL ) D->root = N;
+   //else if( strcmp(k, B->key)<0 ) B->left = N;
+   //else B->right = N;
+   if((D->root[hash(k)])==NULL){
+		D->root[hash(k)]= N;
+	}else{
+		N->left = D->root[hash(k)];
+		D->root[hash(k)] = N;
+	}	
+	//adds one more to the numPairs
+   D->numPairs++;
+}
+
+//----------------------------------------------------------------------------------------
+
+// delete()
+// deletes pair with the key k
+// pre: lookup(D, k)!=NULL
+void delete(Dictionary D, char* k){
+//All errors that come up
+ Node N;
+   if( D==NULL || D->numPairs ==0){
+      fprintf(stderr, 
+         "Dictionary Error: calling delete() when INVALID \n");
+      exit(EXIT_FAILURE);
+   }
+ N=findKey(D->root[hash(k)],k);
+   if (N==NULL){
+		fprintf(stderr,
+			"Dictionary Error: calling delete() when INVALID \n");
+		exit(EXIT_FAILURE);
+	}
+	
+//Up to this point referenced from Delete in Dictionary.c
+if (strcmp(D->root[hash(k)]->key, k)!=0){
+	while(strcmp(D->root[hash(k)]->left->key,k)){
+	//sets D->root[hash(k)] to D...next
+		D->root[hash(k)]=D->root[hash(k)]->left;
+	}
+	//sets next to next next
+	D->root[hash(k)]->left=D->root[hash(k)]->left->left;
+}else{
+	//sets D->root... to next
+	D->root[hash(k)]=D->root[hash(k)]->left;
+}
+	//sets next to NULL, free's the Node, and reduces quantity by 1
+	N->left=NULL;
+	freeNode(&N);
+	D->numPairs--;
+}
+
+//----------------------------------------------------------------------------------------
+
+// makeEmpty()
+// re-sets D to the empty state.
+// pre: none
+void makeEmpty(Dictionary D){
+	//If the set is not currently empty this makes it empty
+	if (D != NULL && D->numPairs != 0){
+		//for loop that goes up one by one to delete everything then sets the spot to NULL
+		for (int i=0; i<tableSize; i++){
+		deleteAll(D->root[i]);
+		D->root[i]=NULL;
+		}
+	}
+	//kept creating this error ended up removing it
+	//else{
+	//	fprintf(stderr,"Dictionary Error calling MakeEmpty()  when INVALID\n");
+	//}
+//   D->root = NULL;
+	//resets numPairs
+   D->numPairs = 0;
+}
+
+//----------------------------------------------------------------------------------------
+//Fcn taken from examples in Dictionary ADT
+void printInOrder(FILE* out, Node R){
+   if( R!=NULL ){
+      fprintf(out, "%s %s\n", R->key, R->value);
+      printInOrder(out, R->left);
+   }
+}
+
+//----------------------------------------------------------------------------------------
+
+// printDictionary()
+// pre: none
+// prints a text representation of D to the file pointed to by out
+//fcn taken from Dictionary ADT 
+void printDictionary(FILE* out, Dictionary D){
+   if( D==NULL ){
+      fprintf(stderr, 
+         "Dictionary Error: calling printDictionary() on NULL"
+         " Dictionary reference\n");
+      exit(EXIT_FAILURE);
+   }
+   //for loop to go through the set and print each one fcn found above
+	for (int i=0; i<tableSize;i++){
+		if (D->root[i]!=NULL){
+		printInOrder(out, D->root[i]);
+		}
+	}
+}

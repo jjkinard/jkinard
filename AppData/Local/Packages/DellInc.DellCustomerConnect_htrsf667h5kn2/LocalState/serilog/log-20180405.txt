@@ -1,0 +1,55 @@
+15:51:04 [Debug] [SurveyControllerTask.Run methond] ENTERING
+15:51:05 [Error] [null] LogEvent exception
+15:51:05 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] ENTERING: RecordPlatinumtEvent
+15:51:05 [Error] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] RecordPlatinumtEvent exception
+15:51:05 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] EXITING: RecordPlatinumtEvent
+15:51:05 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Starting...
+15:51:05 [Debug] [SurveyControllerTask.CheckForSurvey] ENTERING
+15:51:05 [Information] [null] string to hash is: 2018-04-05 22:51:05.941,PUT,https://otbs.azurewebsites.net/api/RegisterSystem
+15:51:05 [Information] [null] computed hash: pmdITDd0UdPfI+Hy52HLqhwosXdi+f2KrrUhgq178ew=
+15:51:05 [Error] [null] net_http_client_execution_error
+15:51:05 [Error] [null] Arg_NullReferenceException
+15:51:05 [Error] [SurveyControllerTask.LogRegistrationFailed] Register system failed - sending telemetry event
+15:51:05 [Error] [null] LogEvent exception
+15:51:05 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] ENTERING: RecordPlatinumtEvent
+15:51:05 [Error] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] RecordPlatinumtEvent exception
+15:51:05 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] EXITING: RecordPlatinumtEvent
+15:51:05 [Debug] [SurveyControllerTask.CheckForSurvey] Retrying registration after 15 minutes
+15:51:05 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Setting SurveyControllerTask delay to: 15 minutes
+15:51:05 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Unregistering SurveyControllerTask
+15:51:06 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask about to register
+15:51:06 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask registered
+15:51:06 [Debug] [SurveyControllerTask.CheckForSurvey] LEAVING
+15:51:06 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Stopping...
+15:51:06 [Debug] [SurveyControllerTask.Run method] LEAVING
+16:36:10 [Debug] [SurveyControllerTask.Run methond] ENTERING
+16:36:12 [Debug] [null] Successfully logged ApplicationStarted event; Response received in 384ms
+16:36:12 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] ENTERING: RecordPlatinumtEvent
+16:36:12 [Error] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] RecordPlatinumtEvent exception
+16:36:12 [Information] [PlatinumApiLoggingProvider.RecordPlatinumtEvent] EXITING: RecordPlatinumtEvent
+16:36:12 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Starting...
+16:36:12 [Debug] [SurveyControllerTask.CheckForSurvey] ENTERING
+16:36:12 [Information] [null] string to hash is: 2018-04-05 23:36:12.255,PUT,https://otbs.azurewebsites.net/api/RegisterSystem
+16:36:12 [Information] [null] computed hash: jrSjR5Z8lLC7rfwEVKFFNJv5Y7BglNJKv8IR63j/AXI=
+16:36:12 [Information] [null] Response received: OK for web request RegisterSystem
+16:36:12 [Information] [null] Response received in 328ms for web request RegisterSystem
+16:36:12 [Information] [null] RegisterSystem successfully registered system to web service.
+16:36:12 [Debug] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval method] ENTERING
+16:36:12 [Information] [null] string to hash is: 2018-04-05 23:36:12.587,GET,https://otbs.azurewebsites.net/api/AppConfig?serviceTag=G8XBYL2&appVersion=5.2.13.0
+16:36:12 [Information] [null] computed hash: mhxiaEoVmLOzZTNGCydFcJP9CvX+I5pwM0wJnnlwPOI=
+16:36:12 [Information] [null] Response received: OK for web request AppConfig
+16:36:12 [Information] [null] Response received in 76ms for web request AppConfig
+16:36:12 [Information] [null] Successfully requested AppConfig from web service.
+16:36:12 [Information] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval] Setting check interval to: 4320
+16:36:12 [Debug] [SurveyControllerTask.GetAppConfigAndUpdateCheckInterval method] LEAVING
+16:36:12 [Information] [null] string to hash is: 2018-04-05 23:36:12.705,GET,https://otbs.azurewebsites.net/api/SurveyRequest?serviceTag=G8XBYL2&appVersion=5.2.13.0&osLanguage=en-US&osVersion=10.0.15063
+16:36:12 [Information] [null] computed hash: LXIKjdJdfBJqeVCNgiHXJXcbV+r4yjc/CZhq+CCgBTk=
+16:36:12 [Information] [null] Response received: NoContent for web request SurveyRequest
+16:36:12 [Information] [null] Response received in 74ms for web request SurveyRequest
+16:36:12 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Setting SurveyControllerTask delay to: 4320 minutes
+16:36:12 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] Unregistering SurveyControllerTask
+16:36:12 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask about to register
+16:36:12 [Debug] [SurveyControllerTask.RegisterAndDelayBackgroundTask] SurveyControllerTask registered
+16:36:12 [Debug] [SurveyControllerTask.CheckForSurvey] LEAVING
+16:36:12 [Debug] [SurveyControllerTask.Run] Background SurveyControllerTask Stopping...
+16:36:12 [Debug] [SurveyControllerTask.Run method] LEAVING
